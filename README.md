@@ -1,4 +1,4 @@
-# cludo-client
+# Cludo client
 
 ## Project setup
 ```
