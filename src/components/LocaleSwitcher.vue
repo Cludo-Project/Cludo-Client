@@ -50,3 +50,35 @@ export default defineComponent({
   },
 })
 </script>
+
+<style scoped>
+.locale-switcher {
+  display: inline;
+  float: right;
+}
+.fr {
+  background-image:
+    url("~@/assets/flag_fr.svg");
+}
+.en {
+  background-image:
+    url("~@/assets/flag_en.svg");
+}
+button {
+  transition: background-image 0.2s;
+  margin-right: 2em;
+  display: block;
+  padding: 0.4em;
+  font-size: 0.7em;
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  border-radius: 5px;
+  width: 3em;
+}
+span{
+  background: rgba(0, 0, 0, .7);
+  color: white;
+  border-radius: 2px;
+}
+</style>

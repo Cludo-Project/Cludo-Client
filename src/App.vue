@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">{{ t("home.title") }}</router-link> |
-    <router-link to="/about">{{ t("about.title") }}</router-link>
+    <router-link to="/">{{ t('home.title') }}</router-link> |
+    <router-link to="/about">{{ t('about.title') }}</router-link>
     <LocaleSwitcher/>
   </nav>
   <router-view/>
@@ -39,6 +39,7 @@ a {
 
 nav {
   padding: 30px;
+  font-size: 1.2rem;
 }
 
 nav a {
