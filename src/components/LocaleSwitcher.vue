@@ -29,7 +29,7 @@ export default defineComponent({
   mounted () {
     // TODO: Support multiple locales
     try {
-      this.currentLocale = this.$i18n.global.locale.value === 'fr' ? 'en' : 'fr'
+      this.currentLocale = this.$i18n.global.locale._value === 'fr' ? 'fr' : 'en'
     } catch {
       this.currentLocale = navigator.language === 'fr' ? 'en' : 'fr'
     }
@@ -37,7 +37,7 @@ export default defineComponent({
   methods: {
     setLocale(locale) {
       this.$i18n.global.locale._setter(locale)
-      this.$i18n.global.locale.value = locale
+      this.$i18n.global.locale._value = locale
       this.currentLocale = locale
     },
     switchLocale() {
