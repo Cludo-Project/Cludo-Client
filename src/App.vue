@@ -1,11 +1,29 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">{{ t("home.title") }}</router-link> |
+    <router-link to="/about">{{ t("about.title") }}</router-link>
+    <LocaleSwitcher/>
   </nav>
   <router-view/>
 </template>
 
+<script>
+import { defineComponent } from 'vue'
+import { useI18n } from 'vue-i18n'
+import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
+export default defineComponent({
+  setup () {
+    const { t } = useI18n({
+      inheritLocale: true,
+      useScope: 'global'
+    })
+    return { t }
+  },
+  components: {
+    LocaleSwitcher
+},
+})
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

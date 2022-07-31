@@ -1,3 +1,9 @@
 {
-  "message": "hello i18n !!"
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome to Cludo !"
+  },
+  "about": {
+    "title": "About",
+  }
 }

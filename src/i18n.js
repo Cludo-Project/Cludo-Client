@@ -1,5 +1,13 @@
 import { createI18n } from 'vue-i18n'
 
+// Set the default locale to use for messages.
+// TODO: Support multiple locales.
+let locale = localStorage.getItem('locale')
+if (!(locale === 'fr' || locale === 'en')) {
+  locale = navigator.language === 'fr' ? 'fr' : 'en'
+}
+localStorage.setItem('locale', locale)
+
 /**
  * Load locale messages
  *
@@ -21,7 +29,7 @@ function loadLocaleMessages() {
 
 export default createI18n({
   legacy: false,
-  locale: process.env.VUE_APP_I18N_LOCALE || 'en',
+  locale: locale || process.env.VUE_APP_I18N_LOCALE || 'en',
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || 'en',
   messages: loadLocaleMessages()
 })
