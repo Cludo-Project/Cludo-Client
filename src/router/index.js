@@ -7,23 +7,42 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: {
+      title: 'Home',
+    }
   },
   {
     path: '/about',
     name: 'about',
-    component: AboutView
+    component: AboutView,
+    meta: {
+      title: 'About',
+    }
   },
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
-    component: NotFoundView
+    component: NotFoundView,
+    meta: {
+      title: 'Not Found',
+    }
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
+})
+
+// Set the title of the page
+router.beforeEach((to, from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title + " - Cludo"
+  } else {
+    document.title = 'Cludo'
+  }
+  next()
 })
 
 export default router
