@@ -1,4 +1,11 @@
 {
+  "404": {
+    "title": "404",
+    "go-back": "retourner à la page précédente",
+    "home-page": "page d'accueil",
+    "or-to-the": "ou à la",
+    "you-may-want-to": "Vous voulez peut-être"
+  },
   "home": {
     "title": "Accueil",
     "welcome": "Bienvenu sur Cludo !"

@@ -5,5 +5,12 @@
   },
   "about": {
     "title": "About"
+  },
+  "404": {
+    "title": "404",
+    "go-back": "go back",
+    "home-page": "home page",
+    "you-may-want-to": "You may want to",
+    "or-to-the": "or to the"
   }
 }
