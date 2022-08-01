@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <img alt="Logo" src="@/assets/logo.png" class="logo">
+    <router-link to="/"><img alt="Logo" src="@/assets/logo.png" class="logo"></router-link>
     <router-link to="/">{{ t('home.title') }}</router-link> |
     <router-link to="/about">{{ t('about.title') }}</router-link>
     <LocaleSwitcher/>
