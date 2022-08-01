@@ -13,5 +13,9 @@
   },
   "about": {
     "title": "À propos"
+  },
+  "games": {
+    "title": "Jeux",
+    "search": "Rechercher un jeu"
   }
 }

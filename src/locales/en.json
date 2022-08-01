@@ -6,6 +6,10 @@
   "about": {
     "title": "About"
   },
+  "games": {
+    "title": "Games",
+    "search": "Search games"
+  },
   "404": {
     "title": "404",
     "message": "Sorry, this page doesn't exist 😕",
