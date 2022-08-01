@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="game-list">
     <h1>{{ t('games.title') }}</h1>
     <input v-model="text" @keyup.enter="searchInputHandler()"/>
     <ul>

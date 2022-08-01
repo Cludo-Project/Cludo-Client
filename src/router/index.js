@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import GameListView from '../views/GameListView.vue'
+import GameView from '../views/GameView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
@@ -27,6 +28,15 @@ const routes = [
     component: GameListView,
     meta: {
       title: 'Games',
+    }
+  },
+  {
+    path: '/games/:gameId',
+    name: 'game',
+    component: GameView,
+    meta: {
+      // TODO: add game title
+      title: 'Game',
     }
   },
   {
