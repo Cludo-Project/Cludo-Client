@@ -56,14 +56,17 @@ export default defineComponent({
   display: inline;
   float: right;
 }
+
 .fr {
   background-image:
     url("~@/assets/flag_fr.svg");
 }
+
 .en {
   background-image:
     url("~@/assets/flag_en.svg");
 }
+
 button {
   transition: background-image 0.2s;
   margin-right: 2em;
@@ -76,7 +79,8 @@ button {
   border-radius: 5px;
   width: 3em;
 }
-span{
+
+span {
   background: rgba(0, 0, 0, .7);
   color: white;
   border-radius: 2px;
