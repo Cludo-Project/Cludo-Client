@@ -36,6 +36,7 @@ export default defineComponent({
   },
   methods: {
     setLocale(locale) {
+      localStorage.setItem('locale', locale)
       this.$i18n.global.locale._setter(locale)
       this.$i18n.global.locale._value = locale
       this.currentLocale = locale
