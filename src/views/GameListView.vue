@@ -35,11 +35,10 @@ export default defineComponent({
   mounted() {
     // Start loading the games list as soon as possible
     this.database.load()
-    this.search("LOUP")
+    this.search()
   },
   methods: {
     async search(query) {
-      console.log('Searching for ' + query)
       let games = await this.database.getDatabase()
       let games_matching = {};
       // Filter the games list by applying the query on all fields of each game
@@ -61,6 +60,8 @@ export default defineComponent({
             }
           }
         }
+      } else {
+        games_matching = games
       }
       this.games = games_matching
       console.log(this.games)
