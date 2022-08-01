@@ -8,6 +8,7 @@
   },
   "404": {
     "title": "404",
+    "message": "Sorry, this page doesn't exist 😕",
     "go-back": "go back",
     "home-page": "home page",
     "you-may-want-to": "You may want to",
