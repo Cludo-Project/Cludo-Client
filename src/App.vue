@@ -1,9 +1,9 @@
 <template>
   <nav>
+    <img alt="Logo" src="@/assets/logo.png" class="logo">
     <router-link to="/">{{ t('home.title') }}</router-link> |
     <router-link to="/about">{{ t('about.title') }}</router-link>
-    <!-- TODO: Restore locale switcher and center correctly links -->
-    <!-- <LocaleSwitcher/> -->
+    <LocaleSwitcher/>
   </nav>
   <router-view/>
 </template>
@@ -11,7 +11,7 @@
 <script>
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
-// import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
+import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
 export default defineComponent({
   setup () {
     const { t } = useI18n({
@@ -21,7 +21,7 @@ export default defineComponent({
     return { t }
   },
   components: {
-    // LocaleSwitcher
+    LocaleSwitcher
 },
 })
 </script>
@@ -43,6 +43,8 @@ a {
 }
 
 nav {
+  /* Align left */
+  text-align: left;
   padding: 30px;
   font-size: 1.2rem;
 }
@@ -54,5 +56,15 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.logo {
+  border-radius: 100%;
+  /* Use the same width than the top bar */
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  /* Center vertically in the top bar */
+  vertical-align: middle;
 }
 </style>
