@@ -1,3 +1,4 @@
+"use strict";
 const EventEmitter = require('events');
 const BaseDatabase = require("./BaseDatabase");
 
@@ -7,12 +8,15 @@ const BaseDatabase = require("./BaseDatabase");
 class JSONDatabase extends BaseDatabase {
     /**
      * Constructor.
+     * @param {Object} fuse - The Fuse.js object (not instantiated yet).
      */
-    constructor() {
+    constructor(fuse) {
         super();
         this.config = {}
+        this.database = {}
         this.database_loaded = false;
         this.database_loading = false;
+        this.fuse = fuse;
         // Bus is used internally to notify listeners when the database is loaded
         this.bus = new EventEmitter();
         this.api_url = process.env.VUE_APP_BASE_CLUDO_API_URL;
@@ -30,7 +34,7 @@ class JSONDatabase extends BaseDatabase {
         return new Promise((resolve, reject) => {
             var xhr = new XMLHttpRequest();
             xhr.open("GET", this.api_url + url, true);
-            xhr.onreadystatechange = function() {
+            xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4) {
                     if (xhr.status == 200) {
                         resolve(JSON.parse(xhr.responseText));
@@ -87,7 +91,7 @@ class JSONDatabase extends BaseDatabase {
      */
     async ensureLoaded() {
         if (!this.database_loaded && !this.database_loading) {
-            this.load();
+            await this.load();
         }
         // If the database is loading, wait for it to finish
         if (this.database_loading) {
@@ -120,7 +124,48 @@ class JSONDatabase extends BaseDatabase {
      */
     async getDatabase() {
         await this.ensureLoaded();
+        // Assert that the database is loaded and not loading
+        if (!this.database_loaded) {
+            throw new Error("Database is not loaded after loading");
+        }
+        if (this.database_loading) {
+            throw new Error("Database is loading after loading");
+        }
         return this.database;
+    }
+    /**
+     * Searches the database with the given query.
+     * @param {Object} query - The query to search with.
+     * @returns {Object} - The search results.
+     */
+    async search(query) {
+        // TODO: Convert the database to a Fuse.js object when loading the database
+        // Get the database
+        let database = await this.getDatabase();
+        // Convert the database to an array of objects (for Fuse.js)
+        // HACK: The database is a JSON object, but Fuse.js expects an array of objects
+        let database_array = [];
+        for (let key in database) {
+            database_array.push(database[key]);
+        }
+        database = database_array;
+        // Setup search options
+        // TODO: Make these configurable
+        const options = {
+            includeScore: true,
+            // Search in all fields
+            keys: ['id', 'name', 'vendor', 'type', 'players_min', 'players_max', 'age', 'description', 'image_url', 'game_type'],
+            // Set the threshold to 0.4 (40%)
+            threshold: 0.4,
+            // Ignore the location of the search
+            ignoreLocation: true,
+        }
+        // Create the Fuse.js object
+        const fuse = new this.fuse(database, options);
+        // Search the database
+        const results = fuse.search(query);
+        // Return the results
+        return results;
     }
 }
 
