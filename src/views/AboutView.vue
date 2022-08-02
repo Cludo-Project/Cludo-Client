@@ -14,7 +14,7 @@ export default defineComponent({
   setup() {
     const { t } = useI18n({
       inheritLocale: true,
-      useScope: 'local'
+      useScope: 'global'
     })
     return { t }
   }
