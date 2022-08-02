@@ -29,6 +29,7 @@ class JSONDatabase extends BaseDatabase {
      * Make a request to the API using XHR.
      * @param {string} url - The URL of the API to request.
      * @returns {Promise} - A promise that resolves with the response.
+     * @private
      */
     async _getJSON(url) {
         return new Promise((resolve, reject) => {
@@ -76,8 +77,8 @@ class JSONDatabase extends BaseDatabase {
                     this.database = database;
                     this.database_loaded = true;
                     this.database_loading = false;
-                    resolve();
                     this.bus.emit('database_loaded');
+                    resolve();
                 }).catch((error) => {
                     reject(error);
                 });
@@ -88,6 +89,7 @@ class JSONDatabase extends BaseDatabase {
     }
     /**
      * Ensures that the database is loaded, and if not, loads it.
+     * @returns {Promise} - A promise that resolves when the database is loaded.
      */
     async ensureLoaded() {
         if (!this.database_loaded && !this.database_loading) {
@@ -139,19 +141,18 @@ class JSONDatabase extends BaseDatabase {
      * @returns {Object} - The search results.
      */
     async search(query) {
-        // TODO: Convert the database to a Fuse.js object when loading the database
         // Get the database
         let database = await this.getDatabase();
         // Convert the database to an array of objects (for Fuse.js)
-        // HACK: The database is a JSON object, but Fuse.js expects an array of objects
+        // HACK: The database is a JSON object, but Fuse.js expects an array of objects_
         let database_array = [];
         for (let key in database) {
             database_array.push(database[key]);
         }
         database = database_array;
-        // Setup search options
-        // TODO: Make these configurable
-        const options = {
+        // Search options
+        // TODO: Make search options configurable
+        const Fuse_options = {
             includeScore: true,
             // Search in all fields
             keys: ['id', 'name', 'vendor', 'type', 'players_min', 'players_max', 'age', 'description', 'image_url', 'game_type'],
@@ -161,7 +162,7 @@ class JSONDatabase extends BaseDatabase {
             ignoreLocation: true,
         }
         // Create the Fuse.js object
-        const fuse = new this.fuse(database, options);
+        const fuse = new this.fuse(database, Fuse_options);
         // Search the database
         const results = fuse.search(query);
         // Return the results
