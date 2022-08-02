@@ -40,7 +40,9 @@ export default defineComponent({
   methods: {
     async search(query) {
       let games = await this.database.getDatabase()
-      let games_matching = {};
+      // Save searching time start
+      let start = new Date().getTime()
+      this.games = {}
       // Filter the games list by applying the query on all fields of each game
       if (query) {
         // TODO: Improve the search algorithm, it is very basic and very slow
@@ -55,16 +57,18 @@ export default defineComponent({
             // If the query is found in the field, remove the game from the list
             if (field.toLowerCase().indexOf(query.toLowerCase()) > -1) {
               // Add the game to object that will be displayed in the list
-              games_matching[Object.keys(games)[i]] = game
+              this.games[Object.keys(games)[i]] = game
               break
             }
           }
         }
       } else {
-        games_matching = games
+        this.games = games
       }
-      this.games = games_matching
-      console.log(this.games)
+      // Log the time it took to search the games list if the debug mode is enabled
+      if (process.env.NODE_ENV === 'development') {
+        console.log(`Searching the games list took ${new Date().getTime() - start}ms`)
+      }
     },
     searchInputHandler() {
       this.search(this.text)
