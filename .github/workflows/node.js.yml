@@ -21,4 +21,4 @@ jobs:
           branch: gh-pages
           folder: dist
 env:
-  VUE_APP_BASE_CLUDO_API_URL: /Cludo-Client
+  VUE_APP_BASE_CLUDO_API_URL: /Cludo-Client/
