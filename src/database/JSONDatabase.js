@@ -16,10 +16,6 @@ class JSONDatabase extends BaseDatabase {
         // Bus is used internally to notify listeners when the database is loaded
         this.bus = new EventEmitter();
         this.api_url = process.env.VUE_APP_BASE_CLUDO_API_URL;
-        // If the api url doesn't start with http, add it, and add also the hostname with the port (if it's not the default port)
-        if (this.api_url.indexOf("http") == -1) {
-            this.api_url = "http://" + window.location.hostname + (window.location.port != 80 || window.location.port != 443 ? ":" + window.location.port : "") + this.api_url;
-        }
     }
     /**
      * Make a request to the API using XHR.
