@@ -16,6 +16,10 @@ class JSONDatabase extends BaseDatabase {
         // Bus is used internally to notify listeners when the database is loaded
         this.bus = new EventEmitter();
         this.api_url = process.env.VUE_APP_BASE_CLUDO_API_URL;
+        // If the API URL does not end with a slash and it is not empty, add a slash
+        if (this.api_url.length > 0 && this.api_url[this.api_url.length - 1] != '/') {
+            this.api_url += '/';
+        }
     }
     /**
      * Make a request to the API using XHR.
