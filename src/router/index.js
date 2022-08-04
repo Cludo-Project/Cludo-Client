@@ -35,7 +35,6 @@ const routes = [
     name: 'game',
     component: GameView,
     meta: {
-      // TODO: add game title
       title: 'Game',
     }
   },

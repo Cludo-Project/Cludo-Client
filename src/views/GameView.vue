@@ -52,6 +52,8 @@ export default defineComponent({
         this.players_max = this.game.players_max
         this.type = this.game.type
         this.vendor = this.game.vendor
+        // Add game name to the title
+        document.title = this.name + ' - ' + document.title
     },
 })
 </script>
