@@ -2,8 +2,6 @@
 const EventEmitter = require('events');
 const BaseDatabaseWithSearch = require("./BaseDatabaseWithSearch");
 
-// TODO: Load database on startup.
-
 /**
  * Database driver for JSON files with a single JSON file.
  */
