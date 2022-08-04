@@ -43,6 +43,12 @@ export default defineComponent({
         this.gameId = this.$route.params.gameId
         this.database = await this.database.getDatabase()
         this.game = this.database[this.gameId]
+        // If the game is not found, redirect to the 404 page
+        if (!this.game) {
+            // TODO: Redirect to 404 page invisible to the user
+            this.$router.push('/404')
+            return
+        }
         this.name = this.game.name
         this.id = this.game.id
         this.description = this.game.description
