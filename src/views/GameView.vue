@@ -16,7 +16,6 @@
 <script>
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { Database } from '@/database'
 
 export default defineComponent({
     name: 'GameView',
@@ -29,7 +28,6 @@ export default defineComponent({
     },
     data() {
         return {
-            database: new Database(),
             name: '',
             id: '',
             description: '',
@@ -42,12 +40,9 @@ export default defineComponent({
         }
     },
     async mounted() {
-        // Start loading the games list as soon as possible
-        this.database.load()
         this.gameId = this.$route.params.gameId
         this.database = await this.database.getDatabase()
         this.game = this.database[this.gameId]
-        console.log(this.game)
         this.name = this.game.name
         this.id = this.game.id
         this.description = this.game.description

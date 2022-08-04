@@ -14,7 +14,6 @@
 <script>
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { Database } from '@/database'
 
 export default defineComponent({
   name: 'AboutView',
@@ -28,13 +27,10 @@ export default defineComponent({
   data() {
     return {
       games: [],
-      database: new Database(this.$fuse),
       text: ''
     }
   },
   async mounted() {
-    // Start loading the games list as soon as possible
-    this.database.load()
     this.search()
   },
   methods: {
