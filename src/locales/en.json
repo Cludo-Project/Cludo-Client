@@ -4,7 +4,8 @@
     "welcome": "Welcome to Cludo !"
   },
   "about": {
-    "title": "About"
+    "title": "About",
+    "message": "This is an about page."
   },
   "games": {
     "title": "Games",

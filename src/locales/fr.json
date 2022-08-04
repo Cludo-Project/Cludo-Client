@@ -12,7 +12,8 @@
     "welcome": "Bienvenu sur Cludo !"
   },
   "about": {
-    "title": "À propos"
+    "title": "À propos",
+    "message": "Ceci est une page à propos."
   },
   "games": {
     "title": "Jeux",
