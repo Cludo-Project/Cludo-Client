@@ -56,8 +56,8 @@ export default defineComponent({
 })
 </script>
 
-<style>
-* {
+<style scoped>
+.game-view {
     margin: 0;
     padding: 0;
 }
