@@ -7,6 +7,11 @@
         <router-link :to="`/games/${game.id}`">{{ game.name }}</router-link>
       </li>
     </ul>
+    <div v-if="games.length != 0">
+      <button @click="previousPage" v-if="page > 0">← {{ t('games.previous') }}</button>
+      <p class="page-info" v-if="page > 0">{{ t('games.page') }} {{ page + 1 }} / {{ games.length + 1 }}</p>
+      <button @click="nextPage" v-if="page < games.length">{{ t('games.next') }} →</button>
+    </div>
   </div>
 </template>
 
@@ -14,6 +19,8 @@
 <script>
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
+
+const maxResultsPerPage = 10
 
 export default defineComponent({
   name: 'AboutView',
@@ -27,7 +34,9 @@ export default defineComponent({
   data() {
     return {
       games: [],
-      text: ''
+      text: '',
+      query: '',
+      page: 1
     }
   },
   async mounted() {
@@ -35,8 +44,18 @@ export default defineComponent({
   },
   methods: {
     async search(query) {
+      const resultStartIndex = this.page * maxResultsPerPage
       if (!query) {
-        this.games = await this.database.getDatabase()
+        let database = await this.database.getDatabase()
+        // Limit max games and display them
+        this.games = []
+        // TODO: Improve this
+        for (let i = resultStartIndex; i < Math.min(Object.keys(database).length, resultStartIndex + maxResultsPerPage); i++) {
+          if (database[i]) {
+            this.games.push(database[i])
+          }
+        }
+        // this.games = database.slice(0, maxResults)
         return
       }
       // Save searching time start
@@ -45,7 +64,8 @@ export default defineComponent({
       let games = await this.database.search(query)
       // Iterate over the games and add searchResult.item to this.games
       this.games = []
-      for (let game of games) {
+      for (let i = resultStartIndex; i < games.length && i < resultStartIndex + maxResultsPerPage; i++) {
+        let game = games[i]
         this.games.push(game.item)
       }
       // Log the time it took to search the games list if the debug mode is enabled
@@ -54,8 +74,39 @@ export default defineComponent({
       }
     },
     searchInputHandler() {
-      this.search(this.text)
+      this.query = this.text
+      this.page = 0
+      this.refresh()
+    },
+    refresh() {
+      this.search(this.query)
+    },
+    previousPage() {
+      this.page--
+      this.refresh()
+    },
+    nextPage() {
+      this.page++
+      this.refresh()
     }
   },
 })
 </script>
+
+<style scoped>
+.page-info {
+  /* Remove line break */
+  display: inline;
+  margin: .5rem
+}
+
+button {
+  /* Make button round */
+  border-radius: 8px;
+
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+</style>

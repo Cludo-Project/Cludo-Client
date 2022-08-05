@@ -17,6 +17,9 @@
   },
   "games": {
     "title": "Jeux",
-    "search": "Rechercher un jeu"
+    "search": "Rechercher un jeu",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page"
   }
 }

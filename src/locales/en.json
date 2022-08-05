@@ -9,7 +9,10 @@
   },
   "games": {
     "title": "Games",
-    "search": "Search games"
+    "search": "Search games",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
   },
   "404": {
     "title": "404",
