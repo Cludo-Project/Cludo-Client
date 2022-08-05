@@ -1,7 +1,7 @@
 <template>
   <div class="game-list">
     <h1>{{ t('games.title') }}</h1>
-    <input v-model="text" @keyup.enter="searchInputHandler()"/>
+    <input v-model="text" @keyup="searchInputHandler()"/>
     <ul>
       <li v-for="(game, index) in games" :key="index">
         <router-link :to="`/games/${game.id}`">{{ game.name }}</router-link>
