@@ -1,6 +1,9 @@
 <template>
   <div class="locale-switcher">
-    <button :class="currentLocale" @click="switchLocale">
+    <button
+      :class="currentLocale"
+      @click="switchLocale"
+    >
       <span>
         {{ currentLocale.toUpperCase() }}
       </span>
@@ -26,7 +29,7 @@ export default defineComponent({
       currentLocale: ""
     }
   },
-  mounted () {
+  mounted() {
     // TODO: Support multiple locales
     try {
       this.currentLocale = this.$i18n.global.locale._value === 'fr' ? 'fr' : 'en'

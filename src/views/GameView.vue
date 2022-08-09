@@ -1,15 +1,33 @@
 <template>
-    <div class="game-view">
-        <!-- TODO: Translate it and improve UI -->
-        <h1 v-if="name">{{ name }}</h1>
-        <p v-if="id">ID : {{ id }}</p>
-        <p v-if="description">Description : {{ description }}</p>
-        <p v-if="designation">Designation : {{ designation }}</p>
-        <p v-if="players_min && players_max">Players : {{ players_min }} - {{ players_max }}</p>
-        <p v-if="type">Type : {{ type }}</p>
-        <p v-if="vendor">Vendor : {{ vendor }}</p>
-        <img v-if="image" :src="'http://ludoacigne.free.fr/jeux/images/' + image" class="game-img" />
-    </div>
+  <div class="game-view">
+    <!-- TODO: Translate it and improve UI -->
+    <h1 v-if="name">
+      {{ name }}
+    </h1>
+    <p v-if="id">
+      ID : {{ id }}
+    </p>
+    <p v-if="description">
+      Description : {{ description }}
+    </p>
+    <p v-if="designation">
+      Designation : {{ designation }}
+    </p>
+    <p v-if="players_min && players_max">
+      Players : {{ players_min }} - {{ players_max }}
+    </p>
+    <p v-if="type">
+      Type : {{ type }}
+    </p>
+    <p v-if="vendor">
+      Vendor : {{ vendor }}
+    </p>
+    <img
+      v-if="image"
+      :src="'http://ludoacigne.free.fr/jeux/images/' + image"
+      class="game-img"
+    >
+  </div>
 </template>
 
 

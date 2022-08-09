@@ -1,12 +1,26 @@
 <template>
-  <nav>
-    <router-link to="/"><img alt="Logo" src="@/assets/logo.png" class="logo"></router-link>
-    <router-link to="/">{{ t('home.title') }}</router-link> |
-    <router-link to="/games">{{ t('games.title') }}</router-link> |
-    <router-link to="/about">{{ t('about.title') }}</router-link>
-    <LocaleSwitcher/>
-  </nav>
-  <router-view/>
+  <div>
+    <nav>
+      <router-link to="/">
+        <img
+          alt="Logo"
+          src="@/assets/logo.png"
+          class="logo"
+        >
+      </router-link>
+      <router-link to="/">
+        {{ t('home.title') }}
+      </router-link> |
+      <router-link to="/games">
+        {{ t('games.title') }}
+      </router-link> |
+      <router-link to="/about">
+        {{ t('about.title') }}
+      </router-link>
+      <LocaleSwitcher />
+    </nav>
+    <router-view />
+  </div>
 </template>
 
 <script>
@@ -14,16 +28,16 @@ import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
 export default defineComponent({
-  setup () {
+  components: {
+    LocaleSwitcher
+  },
+  setup() {
     const { t } = useI18n({
       inheritLocale: true,
       useScope: 'global'
     })
     return { t }
   },
-  components: {
-    LocaleSwitcher
-},
 })
 </script>
 <style>

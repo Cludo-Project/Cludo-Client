@@ -2,7 +2,9 @@
   <div class="about">
     <h1>{{ t('404.message') }}</h1>
     <p>
-    {{ t('404.you-may-want-to') }} <a href="javascript:history.go(-1)">{{ t('404.go-back') }}</a> {{ t('404.or-to-the') }} <router-link to="/">{{ t('404.home-page') }}</router-link>.
+      {{ t('404.you-may-want-to') }} <a href="javascript:history.go(-1)">{{ t('404.go-back') }}</a> {{ t('404.or-to-the') }} <router-link to="/">
+        {{ t('404.home-page') }}
+      </router-link>.
     </p>
   </div>
 </template>

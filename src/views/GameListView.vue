@@ -1,16 +1,39 @@
 <template>
   <div class="game-list">
     <h1>{{ t('games.title') }}</h1>
-    <input v-model="text" @keyup="searchInputHandler()"/>
+    <input
+      v-model="text"
+      @keyup="searchInputHandler()"
+    >
     <ul>
-      <li v-for="(game, index) in games" :key="index">
-        <router-link :to="`/games/${game.id}`">{{ game.name }}</router-link>
+      <li
+        v-for="(game, index) in games"
+        :key="index"
+      >
+        <router-link :to="`/games/${game.id}`">
+          {{ game.name }}
+        </router-link>
       </li>
     </ul>
     <div v-if="games.length != 0">
-      <button @click="previousPage" v-if="page > 0">← {{ t('games.previous') }}</button>
-      <p class="page-info" v-if="page > 0">{{ t('games.page') }} {{ page + 1 }} / {{ games.length + 1 }}</p>
-      <button @click="nextPage" v-if="page < games.length">{{ t('games.next') }} →</button>
+      <button
+        v-if="page > 0"
+        @click="previousPage"
+      >
+        ← {{ t('games.previous') }}
+      </button>
+      <p
+        v-if="page > 0"
+        class="page-info"
+      >
+        {{ t('games.page') }} {{ page + 1 }} / {{ games.length + 1 }}
+      </p>
+      <button
+        v-if="page < games.length"
+        @click="nextPage"
+      >
+        {{ t('games.next') }} →
+      </button>
     </div>
   </div>
 </template>

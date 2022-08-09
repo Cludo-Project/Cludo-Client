@@ -1,8 +1,14 @@
 <template>
   <div class="image-hover-view">
-    <img :src="src" :alt="alt" class="image"/>
+    <img
+      :src="src"
+      :alt="alt"
+      class="image"
+    >
     <div class="text-container">
-      <p class="text">{{ text }}</p>
+      <p class="text">
+        {{ text }}
+      </p>
     </div>
   </div>
 </template>
@@ -14,9 +20,9 @@ import { useI18n } from 'vue-i18n'
 export default defineComponent({
   name: 'ImageHover',
   props: {
-    text: String,
-    src: String,
-    alt: String,
+    text: { type: String, required: true },
+    src: { type: String, required: true },
+    alt: { type: String, default: '' },
   },
   setup() {
     const { t } = useI18n({
@@ -63,7 +69,8 @@ export default defineComponent({
 }
 
 .image-hover-view:hover .text-container {
-  transform: translateY(-10px);  /* Display text on the image */
+  transform: translateY(-10px);
+  /* Display text on the image */
   position: absolute;
   top: 50%;
   left: 50%;
