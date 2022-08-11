@@ -60,7 +60,7 @@ export default defineComponent({
       games: [],
       text: '',
       query: '',
-      page: 15,
+      page: 0,
       totalPages: 1,
     }
   },
