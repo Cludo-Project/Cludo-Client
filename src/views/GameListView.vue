@@ -77,7 +77,7 @@ export default defineComponent({
         this.games = []
         // TODO: Improve this
         for (let i = resultStartIndex; i < Math.min(Object.keys(database).length, resultStartIndex + maxResultsPerPage); i++) {
-          let game = database[Object.keys(database)[i]]
+          let game = Object.values(database)[i]
           if (game) {
             this.games.push(game)
           } else {
