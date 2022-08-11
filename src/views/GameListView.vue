@@ -26,10 +26,10 @@
         v-if="page > 0"
         class="page-info"
       >
-        {{ t('games.page') }} {{ page + 1 }} / {{ games.length + 1 }}
+        {{ t('games.page') }} {{ page + 1 }} / {{ totalPages }}
       </p>
       <button
-        v-if="page < games.length"
+        v-if="page +1 < totalPages"
         @click="nextPage"
       >
         {{ t('games.next') }} →
@@ -59,23 +59,33 @@ export default defineComponent({
       games: [],
       text: '',
       query: '',
-      page: 1
+      page: 15,
+      totalPages: 1,
     }
   },
   async mounted() {
-    this.search()
+    this.refresh()
   },
   methods: {
     async search(query) {
       const resultStartIndex = this.page * maxResultsPerPage
       if (!query) {
         let database = await this.database.getDatabase()
+        this.totalPages = Math.ceil(Object.keys(database).length / maxResultsPerPage)
         // Limit max games and display them
         this.games = []
         // TODO: Improve this
         for (let i = resultStartIndex; i < Math.min(Object.keys(database).length, resultStartIndex + maxResultsPerPage); i++) {
-          if (database[i]) {
-            this.games.push(database[i])
+          let game = database[Object.keys(database)[i]]
+          if (game) {
+            this.games.push(game)
+          } else {
+            // In development mode, raise an error if a game is missing, in production mode, just raise a warning
+            if (process.env.NODE_ENV === 'development') {
+              throw new Error(`Game ${i} is missing`)
+            } else {
+              console.warn(`Game ${i} is missing`)
+            }
           }
         }
         // this.games = database.slice(0, maxResults)
@@ -85,6 +95,7 @@ export default defineComponent({
       let start = new Date().getTime()
       // Search for the query
       let games = await this.database.search(query)
+      this.totalPages = Math.ceil(games.length / maxResultsPerPage)
       // Iterate over the games and add searchResult.item to this.games
       this.games = []
       for (let i = resultStartIndex; i < games.length && i < resultStartIndex + maxResultsPerPage; i++) {
