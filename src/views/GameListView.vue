@@ -3,6 +3,7 @@
     <h1>{{ t('games.title') }}</h1>
     <input
       v-model="text"
+      :placeholder="t('games.search')"
       @keyup="searchInputHandler()"
     >
     <ul>
