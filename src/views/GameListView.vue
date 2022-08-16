@@ -72,7 +72,7 @@ export default defineComponent({
       games: [],
       text: '',
       query: '',
-      page: 1,
+      page: 0,
       totalPages: 1,
     }
   },
@@ -191,7 +191,6 @@ button {
 }
 
 .game-list {
-  max-width: 1500px;
   width: 100%;
   max-width: 100%;
   max-height: 100%;
