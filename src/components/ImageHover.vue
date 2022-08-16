@@ -1,7 +1,7 @@
 <template>
   <div class="image-hover-view">
     <img
-      :src="src"
+      :src="src || '/favicon.svg'"
       :alt="alt"
       class="image"
     >
