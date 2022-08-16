@@ -10,9 +10,6 @@
     <p v-if="description">
       Description : {{ description }}
     </p>
-    <p v-if="designation">
-      Designation : {{ designation }}
-    </p>
     <p v-if="players_min && players_max">
       Players : {{ players_min }} - {{ players_max }}
     </p>
