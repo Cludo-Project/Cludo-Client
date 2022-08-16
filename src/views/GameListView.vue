@@ -6,16 +6,24 @@
       :placeholder="t('games.search')"
       @keyup="searchInputHandler()"
     >
-    <ul>
-      <li
+    <div class="game-grid">
+      <div
         v-for="(game, index) in games"
         :key="index"
+        class="game"
       >
         <router-link :to="`/games/${game.id}`">
-          {{ game.name }}
+          <ImageHover
+            :text="game.description"
+            :src="getImageUrl(game)"
+            class="game-img-hover"
+          />
+          <p class="game-title">
+            {{ game.name }}
+          </p>
         </router-link>
-      </li>
-    </ul>
+      </div>
+    </div>
     <div v-if="games.length != 0">
       <button
         v-if="page > 0"
@@ -43,11 +51,15 @@
 <script>
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
+import ImageHover from '@/components/ImageHover.vue'
 
 const maxResultsPerPage = 10
 
 export default defineComponent({
   name: 'AboutView',
+  components: {
+    ImageHover
+  },
   setup() {
     const { t } = useI18n({
       inheritLocale: true,
@@ -60,7 +72,7 @@ export default defineComponent({
       games: [],
       text: '',
       query: '',
-      page: 0,
+      page: 1,
       totalPages: 1,
     }
   },
@@ -123,6 +135,14 @@ export default defineComponent({
     nextPage() {
       this.page++
       this.refresh()
+    },
+    getImageUrl(game) {
+      // If the game has an image, return it
+      if (game.image || game.image_url) {
+        return this.database.images_url + (game.image || game.image_url)
+      }
+      // Otherwise, return an empty string (handled by the ImageHover component)
+      return ""
     }
   },
 })
@@ -144,4 +164,36 @@ button {
   font-size: 16px;
   margin: 4px 2px;
 }
+.game-img-hover {
+  /* Take at max 50% of the width and 20% of the height */
+  max-width: 50%;
+  max-height: 20%;
+  /* Add shadow */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+</style>
+
+<style scoped>
+/* .game-title {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+.game {
+  padding: 0.5em;
+}
+
+.game-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.game-list {
+  max-width: 1500px;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+} */
 </style>

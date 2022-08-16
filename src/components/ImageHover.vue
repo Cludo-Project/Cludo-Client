@@ -14,24 +14,24 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
-import { useI18n } from 'vue-i18n'
+import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 
 export default defineComponent({
-  name: 'ImageHover',
+  name: "ImageHover",
   props: {
     text: { type: String, required: true },
     src: { type: String, required: true },
-    alt: { type: String, default: '' },
+    alt: { type: String, default: "" },
   },
   setup() {
     const { t } = useI18n({
       inheritLocale: true,
-      useScope: 'global'
-    })
-    return { t }
-  }
-})
+      useScope: "global",
+    });
+    return { t };
+  },
+});
 </script>
 
 <style scoped>
@@ -49,6 +49,8 @@ export default defineComponent({
 .image {
   /* transition: transform 0.2s; */
   transition: all 0.2s;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .text-container {
@@ -99,7 +101,6 @@ export default defineComponent({
   padding-top: 50%;
   font-size: 1.5rem;
 } */
-
 
 .image-hover-view {
   /* Prevent taking more space than needed */

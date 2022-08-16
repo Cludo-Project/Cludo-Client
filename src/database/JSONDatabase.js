@@ -26,6 +26,13 @@ class JSONDatabase extends BaseDatabaseWithSearch {
         if (this.api_url.length > 0 && this.api_url[this.api_url.length - 1] != '/') {
             this.api_url += '/';
         }
+        // Get the images URL
+        // TODO: Move this to the config
+        this.images_url = this.api_url + "images/";
+        // If the images URL does not end with a slash and it is not empty, add a slash
+        if (this.images_url.length > 0 && this.images_url[this.images_url.length - 1] != '/') {
+            this.images_url += '/';
+        }
     }
     /**
      * Make a request to the API using XHR.
