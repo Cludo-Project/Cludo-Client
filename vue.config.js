@@ -13,5 +13,5 @@ module.exports = defineConfig({
       fullInstall: true
     }
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/Cludo-Client/' : '/'
+  publicPath: process.env.VUE_APP_BASE_URL,
 })
