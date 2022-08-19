@@ -166,33 +166,20 @@ button {
 }
 .game-img-hover {
   /* Take at max 50% of the width and 20% of the height */
-  max-width: 50%;
-  max-height: 20%;
+  max-width: 100%;
+  max-height: 100%;
   /* Add shadow */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 </style>
 
 <style scoped>
-/* .game-title {
-  text-align: center;
-  font-size: 1.1em;
-  margin-bottom: 0.5em;
-}
-
 .game {
-  padding: 0.5em;
+  padding: 20px;
 }
-
 .game-grid {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  /* padding: 20px; */
 }
-
-.game-list {
-  width: 100%;
-  max-width: 100%;
-  max-height: 100%;
-} */
 </style>
