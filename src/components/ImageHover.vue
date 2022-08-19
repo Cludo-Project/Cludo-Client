@@ -1,7 +1,7 @@
 <template>
   <div class="image-hover-view">
     <img
-      :src="src || '/favicon.svg'"
+      :src="src || base_url + 'favicon.svg'"
       :alt="alt"
       class="image"
     >
@@ -30,6 +30,11 @@ export default defineComponent({
       useScope: "global",
     });
     return { t };
+  },
+  data() {
+    return {
+      base_url: process.env.VUE_APP_BASE_URL,
+    };
   },
 });
 </script>
