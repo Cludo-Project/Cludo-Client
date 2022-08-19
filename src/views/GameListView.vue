@@ -139,6 +139,10 @@ export default defineComponent({
     getImageUrl(game) {
       // If the game has an image, return it
       if (game.image || game.image_url) {
+        // If image if a full url (starting with http(s)://), return it directly
+        if (game.image_url.startsWith('http://') || game.image_url.startsWith('https://')) {
+          return game.image_url
+        }
         return this.database.images_url + (game.image || game.image_url)
       }
       // Otherwise, return an empty string (handled by the ImageHover component)
