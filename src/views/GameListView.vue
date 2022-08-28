@@ -9,7 +9,7 @@
     <div class="game-grid">
       <div
         v-for="(game, index) in games"
-        :key="index"
+        :key="[ index, game ]"
         class="game"
       >
         <router-link :to="`/games/${game.id}`">
@@ -183,7 +183,7 @@ button {
 }
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   /* padding: 20px; */
 }
 </style>
