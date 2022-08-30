@@ -7,22 +7,12 @@
       @keyup="searchInputHandler()"
     >
     <div class="game-grid">
-      <div
+      <GamePreview
         v-for="(game, index) in games"
         :key="[ index, game ]"
         class="game"
-      >
-        <router-link :to="`/games/${game.id}`">
-          <ImageHover
-            :text="game.description"
-            :src="getImageUrl(game)"
-            class="game-img-hover"
-          />
-          <p class="game-title">
-            {{ game.name }}
-          </p>
-        </router-link>
-      </div>
+        :game="game"
+      />
     </div>
     <div v-if="games.length != 0">
       <button
@@ -51,15 +41,15 @@
 <script>
 import { defineComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
-import ImageHover from '@/components/ImageHover.vue'
+import GamePreview from '../components/GamePreview.vue'
 
 const maxResultsPerPage = 10
 
 export default defineComponent({
   name: 'AboutView',
   components: {
-    ImageHover
-  },
+    GamePreview
+},
   setup() {
     const { t } = useI18n({
       inheritLocale: true,
@@ -135,18 +125,6 @@ export default defineComponent({
     nextPage() {
       this.page++
       this.refresh()
-    },
-    getImageUrl(game) {
-      // If the game has an image, return it
-      if (game.image || game.image_url) {
-        // If image if a full url (starting with http(s)://), return it directly
-        if (game.image_url.startsWith('http://') || game.image_url.startsWith('https://')) {
-          return game.image_url
-        }
-        return this.database.images_url + (game.image || game.image_url)
-      }
-      // Otherwise, return an empty string (handled by the ImageHover component)
-      return ""
     }
   },
 })
@@ -167,13 +145,6 @@ button {
   padding: 15px;
   font-size: 16px;
   margin: 4px 2px;
-}
-.game-img-hover {
-  /* Take at max 50% of the width and 20% of the height */
-  max-width: 100%;
-  max-height: 100%;
-  /* Add shadow */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 </style>
 
