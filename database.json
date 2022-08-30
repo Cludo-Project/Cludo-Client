@@ -324,7 +324,7 @@
             "max": 18,
             "isMouth": true
         },
-        "description": "A CHACUN SA PLACE\u00a0!"
+        "description": "A CHACUN SA PLACE !"
     },
     "192": {
         "sql_id": "1769",
@@ -546,7 +546,7 @@
             "max": 18,
             "isMouth": true
         },
-        "description": "1 caneton et sa maman cane au bout d\u2019un \u00ab\u00a0b\u00e2ton\u00a0\u00bb \u00e0 pousser\n\nBUT DU JEU\u00a0:\n\nEMMENE MAMAN CANE ET SON CANETON EN PROMENADE"
+        "description": "1 caneton et sa maman cane au bout d\u2019un \u00ab b\u00e2ton \u00bb \u00e0 pousser\n\nBUT DU JEU :\n\nEMMENE MAMAN CANE ET SON CANETON EN PROMENADE"
     },
     "220": {
         "sql_id": "1786",
@@ -676,7 +676,7 @@
             "max": 18,
             "isMouth": true
         },
-        "description": "MANIPULER\u00a0: TIRER, POUSSER\u2026 POUR FAIRE SORTIR LES LAPINS DE LEUR CACHETTE"
+        "description": "MANIPULER : TIRER, POUSSER\u2026 POUR FAIRE SORTIR LES LAPINS DE LEUR CACHETTE"
     },
     "229": {
         "sql_id": "1794",
@@ -981,7 +981,7 @@
             "max": 18,
             "isMouth": true
         },
-        "description": "Jouer \u00e0 la dinette\u00a0!"
+        "description": "Jouer \u00e0 la dinette !"
     },
     "365": {
         "sql_id": "1817",
@@ -1112,7 +1112,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1128,7 +1128,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1144,7 +1144,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1160,7 +1160,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1176,7 +1176,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1192,7 +1192,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1208,7 +1208,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1223,7 +1223,7 @@
         "players_min": "1",
         "players_max": "5",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1238,7 +1238,7 @@
         "players_min": "2",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1253,7 +1253,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1268,7 +1268,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1283,7 +1283,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1330,7 +1330,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1346,7 +1346,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1361,7 +1361,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1393,7 +1393,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1408,7 +1408,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1423,11 +1423,11 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "QUELLE LOCOMOTIVE VA ETRE PARTICULIEREMENT RAPIDE POUR TOURNER AUTOUR DU ROND-POINT ET REVENIR LA PREMIERE A LA GARE\u00a0?"
+        "description": "QUELLE LOCOMOTIVE VA ETRE PARTICULIEREMENT RAPIDE POUR TOURNER AUTOUR DU ROND-POINT ET REVENIR LA PREMIERE A LA GARE ?"
     },
     "116": {
         "sql_id": "1847",
@@ -1438,7 +1438,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1453,7 +1453,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1468,7 +1468,7 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1483,7 +1483,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1498,7 +1498,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1514,7 +1514,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1529,7 +1529,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1544,7 +1544,7 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1560,7 +1560,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1592,7 +1592,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1607,7 +1607,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1622,7 +1622,7 @@
         "players_min": "1",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1637,7 +1637,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1652,7 +1652,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1682,7 +1682,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1712,7 +1712,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1726,7 +1726,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1741,7 +1741,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1756,11 +1756,11 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "ENFILER LES PERLES POUR FAIRE UN JOLI COLLIER\u00a0!"
+        "description": "ENFILER LES PERLES POUR FAIRE UN JOLI COLLIER !"
     },
     "219": {
         "sql_id": "1869",
@@ -1770,11 +1770,11 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "A TOI DE JOUER, D\u2019IMAGINER ET D\u2019IMITER\u00a0!"
+        "description": "A TOI DE JOUER, D\u2019IMAGINER ET D\u2019IMITER !"
     },
     "224": {
         "sql_id": "1870",
@@ -1785,7 +1785,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1799,11 +1799,11 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "DOMINO\u00a0: ASSEMBLER LES IMAGES IDENTIQUES"
+        "description": "DOMINO : ASSEMBLER LES IMAGES IDENTIQUES"
     },
     "236": {
         "sql_id": "1872",
@@ -1814,7 +1814,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1828,7 +1828,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1842,7 +1842,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1857,7 +1857,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1872,7 +1872,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1887,7 +1887,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1902,7 +1902,7 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1917,7 +1917,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1933,7 +1933,7 @@
         "players_min": "2",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1949,7 +1949,7 @@
         "players_min": "2",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1965,7 +1965,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -1981,11 +1981,11 @@
         "players_min": "2",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "Attraper la grenouille \u00e0 l'aide d'une raquette\u00a0paniers.",
+        "description": "Attraper la grenouille \u00e0 l'aide d'une raquette paniers.",
         "game_type": "exterieur"
     },
     "310": {
@@ -1997,7 +1997,7 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2030,7 +2030,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2044,7 +2044,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2059,7 +2059,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2073,11 +2073,11 @@
         "players_min": "0",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "Inventer des histoires avec :\n-des personnages\u00a0( 1 chien, Dora avec une jupe, Diego, la Reine)\n-des meubles\u00a0( 1 lavabo avec 1 tabouret, 1 canap\u00e9, 1 table de salon, 1 baignoire, 1 cuvette WC, 1 bureau, 1 table, 2 chaises, 1 fauteuil)\n-des accessoires\u00a0( 1 lampadaire, 1 miroir, 2 coffres, 1 boule magique, 1 tapis, 2 coussins, 1 journal, 1 bougie, 3 baguettes magiques, 1 bo\u00eete magique, 1 globe terrestre)"
+        "description": "Inventer des histoires avec :\n-des personnages ( 1 chien, Dora avec une jupe, Diego, la Reine)\n-des meubles ( 1 lavabo avec 1 tabouret, 1 canap\u00e9, 1 table de salon, 1 baignoire, 1 cuvette WC, 1 bureau, 1 table, 2 chaises, 1 fauteuil)\n-des accessoires ( 1 lampadaire, 1 miroir, 2 coffres, 1 boule magique, 1 tapis, 2 coussins, 1 journal, 1 bougie, 3 baguettes magiques, 1 bo\u00eete magique, 1 globe terrestre)"
     },
     "352": {
         "sql_id": "1902",
@@ -2088,7 +2088,7 @@
         "players_min": "1",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2102,11 +2102,11 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "Jouets au toucher doucement stimulant\u00a0!"
+        "description": "Jouets au toucher doucement stimulant !"
     },
     "382": {
         "sql_id": "1904",
@@ -2117,7 +2117,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2132,11 +2132,11 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "Petits carr\u00e9s \u00e0 tripoter ou caresser pour d\u00e9velopper la sensibilit\u00e9 tactile de l\u2019enfant. La d\u00e9couverte de diff\u00e9rentes mati\u00e8res et surfaces pour un travail d\u2019expression en parall\u00e8le\u00a0: mettre et apprendre des mots sur leurs sensations et impressions. Vous pouvez \u00e9galement jouer \u00e0 un jeu de paire ou de m\u00e9moire tactile puisque toutes les sensations sont propos\u00e9es en double."
+        "description": "Petits carr\u00e9s \u00e0 tripoter ou caresser pour d\u00e9velopper la sensibilit\u00e9 tactile de l\u2019enfant. La d\u00e9couverte de diff\u00e9rentes mati\u00e8res et surfaces pour un travail d\u2019expression en parall\u00e8le : mettre et apprendre des mots sur leurs sensations et impressions. Vous pouvez \u00e9galement jouer \u00e0 un jeu de paire ou de m\u00e9moire tactile puisque toutes les sensations sont propos\u00e9es en double."
     },
     "388": {
         "sql_id": "1906",
@@ -2147,7 +2147,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2162,7 +2162,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2178,7 +2178,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2193,7 +2193,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2209,7 +2209,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2225,7 +2225,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2240,7 +2240,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2255,7 +2255,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2270,7 +2270,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2289,7 +2289,7 @@
             "max": 18,
             "isMouth": true
         },
-        "description": "Le jeu consiste \u00e0 reconstituer les couples \u00ab\u00a0maman et ses petits\u00a0\u00bb gr\u00e2ce \u00e0 des pi\u00e8ces de puzzle autocorrectives. Il existe 4 variantes de jeux\u00a0: \u00ab\u00a0 la chasse aux paires\u00a0\u00bb, qui a la carte animal qui convient\u00a0?\u00a0\u00bb, \u00ab\u00a0l\u2019\u00e9change de cartes\u00a0\u00bb et \u00ab\u00a0recherche d\u2019images avec les cartes retourn\u00e9es\u00a0\u00bb.",
+        "description": "Le jeu consiste \u00e0 reconstituer les couples \u00ab maman et ses petits \u00bb gr\u00e2ce \u00e0 des pi\u00e8ces de puzzle autocorrectives. Il existe 4 variantes de jeux : \u00ab  la chasse aux paires \u00bb, qui a la carte animal qui convient ? \u00bb, \u00ab l\u2019\u00e9change de cartes \u00bb et \u00ab recherche d\u2019images avec les cartes retourn\u00e9es \u00bb.",
         "game_type": "normal"
     },
     "472": {
@@ -2301,11 +2301,11 @@
         "players_min": "1",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
-        "description": "L\u2019enfant va exercer sa coordination gestuelle en s\u2019amusant. En effet l\u2019\u0153uf \u00e9lectronique parle et invite l\u2019enfant \u00e0 bouger sur des musiques rythm\u00e9es. L\u2019enfant apprend \u00e0 se concentrer pour reproduire des postures en tenant toujours l\u2019\u0153uf bien droit. Si l\u2019enfant penche l\u2019\u0153uf, il rit et c\u2019est perdu. Deux modes de jeu\u00a0: initiation et collectif, id\u00e9al pour les go\u00fbter d\u2019anniversaire."
+        "description": "L\u2019enfant va exercer sa coordination gestuelle en s\u2019amusant. En effet l\u2019\u0153uf \u00e9lectronique parle et invite l\u2019enfant \u00e0 bouger sur des musiques rythm\u00e9es. L\u2019enfant apprend \u00e0 se concentrer pour reproduire des postures en tenant toujours l\u2019\u0153uf bien droit. Si l\u2019enfant penche l\u2019\u0153uf, il rit et c\u2019est perdu. Deux modes de jeu : initiation et collectif, id\u00e9al pour les go\u00fbter d\u2019anniversaire."
     },
     "2": {
         "sql_id": "1917",
@@ -2368,7 +2368,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "QUEL ENFANT RECUPERERA LE PLUS DE CAROTTES\u00a0?",
+        "description": "QUEL ENFANT RECUPERERA LE PLUS DE CAROTTES ?",
         "image_url": "https://ipfs.io/ipfs/QmWgfa8GdTLXm4zf1mr888EvByJPuGhTSB18iMLUbMbZuG"
     },
     "11": {
@@ -2511,7 +2511,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "REUSSIREZ-VOUS A RASSEMBLER TOUS LES PETITS HARENGS AU MILIEU POUR FORMER UN POISSON ARC-EN-CIEL\u00a0?\nSOYEZ PRUDENTS, VOUS JOUEZ CONTRE BLOUP LE GLOUTON",
+        "description": "REUSSIREZ-VOUS A RASSEMBLER TOUS LES PETITS HARENGS AU MILIEU POUR FORMER UN POISSON ARC-EN-CIEL ?\nSOYEZ PRUDENTS, VOUS JOUEZ CONTRE BLOUP LE GLOUTON",
         "image_url": "https://ipfs.io/ipfs/QmXXjhRDLCtLPJ6tMNPVrGUZ284NTKkLySJgfJjLz55KSS"
     },
     "22": {
@@ -2591,7 +2591,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "LES FERMIERS DOIVENT COLLECTER UN MAXIMUM D\u2019\u0152UFS POUR NOURRIR LEURS FAMILLES.\n POUR LES OBTENIR, ILS DOIVENT MEMORISER LES COULEURS CACHEES SOUS CHAQUE POULE\u00a0!"
+        "description": "LES FERMIERS DOIVENT COLLECTER UN MAXIMUM D\u2019\u0152UFS POUR NOURRIR LEURS FAMILLES.\n POUR LES OBTENIR, ILS DOIVENT MEMORISER LES COULEURS CACHEES SOUS CHAQUE POULE !"
     },
     "34": {
         "sql_id": "1935",
@@ -2606,7 +2606,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "PIERRE, FEUILLE, CISEAUX\u00a0?\nTREPIDO EST UN JEU OU IL FAUT RECOUVRIR LA CARTE DU JOUEUR PRECEDENT AVEC UNE CARTE PLUS FORTE.\nLE VAINQUEUR EST LE 1ER QUI A POSE TOUTES SES CARTES",
+        "description": "PIERRE, FEUILLE, CISEAUX ?\nTREPIDO EST UN JEU OU IL FAUT RECOUVRIR LA CARTE DU JOUEUR PRECEDENT AVEC UNE CARTE PLUS FORTE.\nLE VAINQUEUR EST LE 1ER QUI A POSE TOUTES SES CARTES",
         "image_url": "https://ipfs.io/ipfs/QmXA6JQxGkt2Lc74ERHmQoxJLEhBWsfTb3Yb6hbG1Tenyk"
     },
     "35": {
@@ -2622,7 +2622,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "LES SOURIS DOIVENT PARVENIR AU PAYS DE COCAGNE OU BIEN SE REFUGIER DANS L\u2019UN DES 4 LOGIS.\nQUI A DENICHE LE PLUS GRAND NOMBRE DE MORCEAUX DE FROMAGE DURANT CETTE EXPEDITION\u00a0?",
+        "description": "LES SOURIS DOIVENT PARVENIR AU PAYS DE COCAGNE OU BIEN SE REFUGIER DANS L\u2019UN DES 4 LOGIS.\nQUI A DENICHE LE PLUS GRAND NOMBRE DE MORCEAUX DE FROMAGE DURANT CETTE EXPEDITION ?",
         "image_url": "https://ipfs.io/ipfs/QmYgwag9Bzp9HPJYqaD8i2MmNYQUQJUwgmmBTE2cnwgcrk"
     },
     "46": {
@@ -2713,7 +2713,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "QUI VA REUSSIR A RECUPERER LE PLUS POSSIBLE D\u2019\u0152UFS ET AURA AINSI LE PLUS GRAND NOMBRE DE POINTS\u00a0?\nCELA NE VA PAS ETRE FACILE CAR CE SONT DES \u0152UFS SAUTEURS QUI N\u2019ARRETENT PAS DE PASSER DE MAINS EN MAINS\u2026ET SI L\u2019ON FAIT TOMBER L\u2019UN DE SES \u0152UFS PAR TERRE, LA PARTIE EST ALORS FINIE.",
+        "description": "QUI VA REUSSIR A RECUPERER LE PLUS POSSIBLE D\u2019\u0152UFS ET AURA AINSI LE PLUS GRAND NOMBRE DE POINTS ?\nCELA NE VA PAS ETRE FACILE CAR CE SONT DES \u0152UFS SAUTEURS QUI N\u2019ARRETENT PAS DE PASSER DE MAINS EN MAINS\u2026ET SI L\u2019ON FAIT TOMBER L\u2019UN DE SES \u0152UFS PAR TERRE, LA PARTIE EST ALORS FINIE.",
         "image_url": "https://ipfs.io/ipfs/QmNasBKeUVMsPW2oigUnEns1XVNmWLAxVSwn7i37QtuV9v"
     },
     "77": {
@@ -2740,7 +2740,7 @@
         "players_min": "2",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -2805,7 +2805,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "TOUTES LES GRENOUILLES VEULENT REJOINDRE LA JOLIE PRINCESSE REINE RAINETTE DE L\u2019AUTRE COTE DE LA MARE. MAIS POUR L\u2019ATTEINDRE, IL FAUT D\u2019ABORD GOBER LES MOUCHES\u00a0!"
+        "description": "TOUTES LES GRENOUILLES VEULENT REJOINDRE LA JOLIE PRINCESSE REINE RAINETTE DE L\u2019AUTRE COTE DE LA MARE. MAIS POUR L\u2019ATTEINDRE, IL FAUT D\u2019ABORD GOBER LES MOUCHES !"
     },
     "94": {
         "sql_id": "1949",
@@ -2820,7 +2820,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "NOS LAPINS FONT LA COURSE POUR ATTEINDRE LA SUCCULENTE CAROTTE AU SOMMET DE LA COLLINE. MAIS LE CHEMIN EST PLEIN DE SURPRISES, DES TROUS S\u2019OUVRENT SOUS LEURS PIEDS ET UN LAPIN TOMBE DEDANS ET DISPARA\u00ceT. QUEL LAPIN PARVIENDRA LE 1ER TOUT EN HAUT\u00a0?",
+        "description": "NOS LAPINS FONT LA COURSE POUR ATTEINDRE LA SUCCULENTE CAROTTE AU SOMMET DE LA COLLINE. MAIS LE CHEMIN EST PLEIN DE SURPRISES, DES TROUS S\u2019OUVRENT SOUS LEURS PIEDS ET UN LAPIN TOMBE DEDANS ET DISPARA\u00ceT. QUEL LAPIN PARVIENDRA LE 1ER TOUT EN HAUT ?",
         "image_url": "https://ipfs.io/ipfs/QmS5e6XnnBM8sfbHxPBSxunJ7EfKN1q7535nXBMG1Wnz9m"
     },
     "100": {
@@ -2836,7 +2836,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "ETRE LE\u00a0PREMIER ARTISTE A RECUPERER SES 6 CARTES ACCESSOIRES POUR POUVOIR REALISER SON NUMERO.",
+        "description": "ETRE LE PREMIER ARTISTE A RECUPERER SES 6 CARTES ACCESSOIRES POUR POUVOIR REALISER SON NUMERO.",
         "image_url": "https://ipfs.io/ipfs/QmNnz1yDoiSSaixZVKM2XRUQVgH2q5z3J2jHhGeWXRcug8"
     },
     "101": {
@@ -2882,7 +2882,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "QUI VA FAIRE AVANCER SON RADEAU TRES VITE ET ARRIVERA LE PREMIER\u00a0?",
+        "description": "QUI VA FAIRE AVANCER SON RADEAU TRES VITE ET ARRIVERA LE PREMIER ?",
         "image_url": "https://ipfs.io/ipfs/QmPDFjMje3F7ZVpiPeWmqbfmCbivDmQ6gY8QMTBhQcXmLr"
     },
     "114": {
@@ -2943,7 +2943,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "JEU N\u00b0 1\u00a0: LES LUTINS VEULENT TERMINER LA CONSTRUCTION DE LEUR VILLAGE AVANT QUE LE LUTIN BLEU N\u2019AIT ERIGE SA PROPRE TOUR.\nJEU N\u00b0 2\u00a0:LES LUTINS VEULENT TERMINER LA CONSTRUCTION DE LEUR VILLAGE AVANT QUE LE LUTIN BLEU (UN DES JOUEURS) N\u2019AIT ERIGE SA TOUR.",
+        "description": "JEU N\u00b0 1 : LES LUTINS VEULENT TERMINER LA CONSTRUCTION DE LEUR VILLAGE AVANT QUE LE LUTIN BLEU N\u2019AIT ERIGE SA PROPRE TOUR.\nJEU N\u00b0 2 :LES LUTINS VEULENT TERMINER LA CONSTRUCTION DE LEUR VILLAGE AVANT QUE LE LUTIN BLEU (UN DES JOUEURS) N\u2019AIT ERIGE SA TOUR.",
         "image_url": "https://ipfs.io/ipfs/QmTxDrRXy9VQcusoArWaieuLA3aQeKhEthatrey2TwZuhZ"
     },
     "631": {
@@ -2989,7 +2989,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "QUI SERA LE PREMIER A TRAVERSER LE MONT\u00a0?\nUNE COURSE CAPTIVANTE AVEC DES OBSTACLES"
+        "description": "QUI SERA LE PREMIER A TRAVERSER LE MONT ?\nUNE COURSE CAPTIVANTE AVEC DES OBSTACLES"
     },
     "157": {
         "sql_id": "1961",
@@ -3124,7 +3124,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "QUEL CHAOS\u00a0! LA TABLE EST COUVERTE D\u2019UNE MULTITUDE DE BILLES.\nCOLLECTE LES RAPIDEMENT, MAIS DANS LE BON ORDRE."
+        "description": "QUEL CHAOS ! LA TABLE EST COUVERTE D\u2019UNE MULTITUDE DE BILLES.\nCOLLECTE LES RAPIDEMENT, MAIS DANS LE BON ORDRE."
     },
     "202": {
         "sql_id": "1971",
@@ -3139,7 +3139,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "JEU DE QUESTIONS \u2013 REPONSES\nLA REPONSE EST BONNE\u00a0: LA SOURIS COUINE GAIEMENT ET SON \u0152IL VERT S\u2019ALLUME, LA REPONSE EST MAUVAISE\u00a0: LA SOURIS COUINE TRISTEMENT ET SON \u0152IL ROUGE S\u2019ALLUME."
+        "description": "JEU DE QUESTIONS \u2013 REPONSES\nLA REPONSE EST BONNE : LA SOURIS COUINE GAIEMENT ET SON \u0152IL VERT S\u2019ALLUME, LA REPONSE EST MAUVAISE : LA SOURIS COUINE TRISTEMENT ET SON \u0152IL ROUGE S\u2019ALLUME."
     },
     "205": {
         "sql_id": "1972",
@@ -3334,7 +3334,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "ESQUIVE LES \u0152UFS ET SOIS LE PREMIER EN HAUT\u00a0!"
+        "description": "ESQUIVE LES \u0152UFS ET SOIS LE PREMIER EN HAUT !"
     },
     "273": {
         "sql_id": "1990",
@@ -3379,7 +3379,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Le premier qui a r\u00e9ussi \u00e0 mettre ses 3 grenouilles dans l\u2019\u00e9tang est \u00ab\u00a0le roi des grenouilles\u00a0\u00bb"
+        "description": "Le premier qui a r\u00e9ussi \u00e0 mettre ses 3 grenouilles dans l\u2019\u00e9tang est \u00ab le roi des grenouilles \u00bb"
     },
     "287": {
         "sql_id": "1993",
@@ -3394,7 +3394,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Qui sera le plus adroit et empilera en premier tous ses animaux\u00a0?"
+        "description": "Qui sera le plus adroit et empilera en premier tous ses animaux ?"
     },
     "290": {
         "sql_id": "1994",
@@ -3424,7 +3424,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Lancer les d\u00e9s et associer les au plus vite avec les animaux que vous portez aux doigts. Le plus rapide retire une bague. Plus rien aux doigts, c\u2019est gagn\u00e9\u00a0!"
+        "description": "Lancer les d\u00e9s et associer les au plus vite avec les animaux que vous portez aux doigts. Le plus rapide retire une bague. Plus rien aux doigts, c\u2019est gagn\u00e9 !"
     },
     "293": {
         "sql_id": "1996",
@@ -3439,7 +3439,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Quels pirates vont r\u00e9cup\u00e9rer le plus de coffres et quels sont ceux qui contiendront les tr\u00e9sors les plus pr\u00e9cieux\u00a0?"
+        "description": "Quels pirates vont r\u00e9cup\u00e9rer le plus de coffres et quels sont ceux qui contiendront les tr\u00e9sors les plus pr\u00e9cieux ?"
     },
     "294": {
         "sql_id": "1997",
@@ -3759,7 +3759,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Un jeu d\u2019action pour ceux qui ont des r\u00e9flexes et des yeux de Lynx. Si tu r\u00e9ussis \u00e0 rep\u00e9rer les images correspondantes avant les autres joueurs, c\u2019est gagn\u00e9\u00a0! Tu les prends. Le gagnant est celui qui r\u00e9unit le plus grand nombre de cartes."
+        "description": "Un jeu d\u2019action pour ceux qui ont des r\u00e9flexes et des yeux de Lynx. Si tu r\u00e9ussis \u00e0 rep\u00e9rer les images correspondantes avant les autres joueurs, c\u2019est gagn\u00e9 ! Tu les prends. Le gagnant est celui qui r\u00e9unit le plus grand nombre de cartes."
     },
     "847": {
         "sql_id": "2641",
@@ -3791,7 +3791,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Jules est en \u00e9quilibre en haut de l\u2019\u00e9chelle\u00a0!\nChaque joueur doit apporter ses seaux sans tout faire basculer.\nLe gagnant est celui qui, le premier, accroche tous ses seaux aux pieds de Jules ."
+        "description": "Jules est en \u00e9quilibre en haut de l\u2019\u00e9chelle !\nChaque joueur doit apporter ses seaux sans tout faire basculer.\nLe gagnant est celui qui, le premier, accroche tous ses seaux aux pieds de Jules ."
     },
     "442": {
         "sql_id": "2020",
@@ -3821,7 +3821,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Un jeu de maths \u00e9volutif o\u00f9 il n\u2019est pas n\u00e9cessaire de savoir compter pour jouer\u00a0! Cadeaux contre coquillages, fleurs contre plumes, l\u2019enfant s\u2019approprie progressivement diff\u00e9rentes notions math\u00e9matiques par le jeu et la manipulation."
+        "description": "Un jeu de maths \u00e9volutif o\u00f9 il n\u2019est pas n\u00e9cessaire de savoir compter pour jouer ! Cadeaux contre coquillages, fleurs contre plumes, l\u2019enfant s\u2019approprie progressivement diff\u00e9rentes notions math\u00e9matiques par le jeu et la manipulation."
     },
     "444": {
         "sql_id": "2022",
@@ -3836,7 +3836,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Quatre aventures passionnantes vous attendent. Voulez-vous d\u2019abord commencer sur la mer de glace\u00a0? Ou bien traverser le pays des volcans\u00a0? L\u2019aventure peut aussi d\u00e9buter \u00e0 travers la jungle ou en empruntant le p\u00e9rilleux pont suspendu. Au cours de l\u2019exp\u00e9dition, les aventuriers devront r\u00e9ussir diff\u00e9rentes \u00e9preuves\u00a0: reconnaissances des couleurs, m\u00e9moire, course et adresse."
+        "description": "Quatre aventures passionnantes vous attendent. Voulez-vous d\u2019abord commencer sur la mer de glace ? Ou bien traverser le pays des volcans ? L\u2019aventure peut aussi d\u00e9buter \u00e0 travers la jungle ou en empruntant le p\u00e9rilleux pont suspendu. Au cours de l\u2019exp\u00e9dition, les aventuriers devront r\u00e9ussir diff\u00e9rentes \u00e9preuves : reconnaissances des couleurs, m\u00e9moire, course et adresse."
     },
     "445": {
         "sql_id": "2023",
@@ -3851,7 +3851,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Pourquoi les chasseurs de tr\u00e9sors sont-ils r\u00e9unis sur l\u2019\u00eele aux tr\u00e9sors\u00a0? Ils sont tous \u00e0 la recherche des tr\u00e9sors cach\u00e9s par le c\u00e9l\u00e8bre aventurier Sabremain\u00a0! Astucieux, celui-ci a compliqu\u00e9 la chasse, car pour parvenir aux tr\u00e9sors, il faut ex\u00e9cuter des actions pas toujours faciles. Qui va gagner cette turbulente chasse aux tr\u00e9sors\u00a0?"
+        "description": "Pourquoi les chasseurs de tr\u00e9sors sont-ils r\u00e9unis sur l\u2019\u00eele aux tr\u00e9sors ? Ils sont tous \u00e0 la recherche des tr\u00e9sors cach\u00e9s par le c\u00e9l\u00e8bre aventurier Sabremain ! Astucieux, celui-ci a compliqu\u00e9 la chasse, car pour parvenir aux tr\u00e9sors, il faut ex\u00e9cuter des actions pas toujours faciles. Qui va gagner cette turbulente chasse aux tr\u00e9sors ?"
     },
     "453": {
         "sql_id": "2024",
@@ -3910,7 +3910,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Avec \u00ab\u00a0Premier Anglais\u00a0\u00bb, votre enfant apprend ses premiers mots anglais."
+        "description": "Avec \u00ab Premier Anglais \u00bb, votre enfant apprend ses premiers mots anglais."
     },
     "467": {
         "sql_id": "2028",
@@ -3940,7 +3940,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Pour s\u2019initier \u00e0 la musique en jouant des airs connus\u00a0: 1- Ins\u00e8re la partition dans son support 2- Ecoute la m\u00e9lodie avant de jouer 3- D\u00e9chiffre la partition gr\u00e2ce au code couleur 4- Autocorrection par le piano 5- Possibilit\u00e9 d\u2019enregistrer et d\u2019\u00e9couter ses propres m\u00e9lodies."
+        "description": "Pour s\u2019initier \u00e0 la musique en jouant des airs connus : 1- Ins\u00e8re la partition dans son support 2- Ecoute la m\u00e9lodie avant de jouer 3- D\u00e9chiffre la partition gr\u00e2ce au code couleur 4- Autocorrection par le piano 5- Possibilit\u00e9 d\u2019enregistrer et d\u2019\u00e9couter ses propres m\u00e9lodies."
     },
     "471": {
         "sql_id": "2030",
@@ -3985,7 +3985,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Les lettres bougent, s\u2019agitent, gigotent\u00a0: attrape les bonnes pour former ton mot. Le gagnant est le premier \u00e0 avoir \u00e9crit son mot"
+        "description": "Les lettres bougent, s\u2019agitent, gigotent : attrape les bonnes pour former ton mot. Le gagnant est le premier \u00e0 avoir \u00e9crit son mot"
     },
     "481": {
         "sql_id": "2033",
@@ -4000,7 +4000,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Faire avaler les dingo burgers au cochon cuistot sans faire exploser sa ceinture\u00a0!"
+        "description": "Faire avaler les dingo burgers au cochon cuistot sans faire exploser sa ceinture !"
     },
     "482": {
         "sql_id": "2034",
@@ -4060,7 +4060,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Jeter les ordures dans la poubelle en r\u00e9coltant le moins possible de mouches, car en ouvrant le couvercle les mouches s\u2019\u00e9chappent\u00a0!"
+        "description": "Jeter les ordures dans la poubelle en r\u00e9coltant le moins possible de mouches, car en ouvrant le couvercle les mouches s\u2019\u00e9chappent !"
     },
     "493": {
         "sql_id": "2038",
@@ -4075,7 +4075,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Torti Chenille danse\u00a0! En s\u2019aidant de sa pince, chaque joueur place ses billes une par une dans les mains de la chenille situ\u00e9es au dessus de son r\u00e9cipient. Le premier qui arrive \u00e0 placer toutes ses billes remporte la partie ."
+        "description": "Torti Chenille danse ! En s\u2019aidant de sa pince, chaque joueur place ses billes une par une dans les mains de la chenille situ\u00e9es au dessus de son r\u00e9cipient. Le premier qui arrive \u00e0 placer toutes ses billes remporte la partie ."
     },
     "9": {
         "sql_id": "2040",
@@ -4244,7 +4244,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "LE JEU CONSISTE A FORMER LE PREMIER AVEC QUATRE BOULES DE LA MEME COULEUR UNE LIGNE HORIZONTALE\u00a0VERTICALE OU DIAGONALE TOUT EN EMPECHANT L\u2019ADVERSAIRE D\u2019Y PARVENIR."
+        "description": "LE JEU CONSISTE A FORMER LE PREMIER AVEC QUATRE BOULES DE LA MEME COULEUR UNE LIGNE HORIZONTALE VERTICALE OU DIAGONALE TOUT EN EMPECHANT L\u2019ADVERSAIRE D\u2019Y PARVENIR."
     },
     "76": {
         "sql_id": "2051",
@@ -4381,7 +4381,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "CHAQUE TUILE EST UNIQUE, AVEC L\u2019ENSEMBLE VOUS POURREZ\u00a0:\nSOIT RESOUDRE LES ENIGMES PROPOSEES EN SOLITAIRE\nSOIT DISPUTER UNE PARTIE A PLUSIEURS"
+        "description": "CHAQUE TUILE EST UNIQUE, AVEC L\u2019ENSEMBLE VOUS POURREZ :\nSOIT RESOUDRE LES ENIGMES PROPOSEES EN SOLITAIRE\nSOIT DISPUTER UNE PARTIE A PLUSIEURS"
     },
     "112": {
         "sql_id": "2060",
@@ -4396,7 +4396,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "QUI A BONNE MEMOIRE ET AURA DE LA CHANCE POUR POUVOIR RECUPERER LE PLUS DE BONBONS AU COURS DE DEUX PARTIES\u00a0?",
+        "description": "QUI A BONNE MEMOIRE ET AURA DE LA CHANCE POUR POUVOIR RECUPERER LE PLUS DE BONBONS AU COURS DE DEUX PARTIES ?",
         "image_url": "https://ipfs.io/ipfs/QmQzQeLatMHAMc3AUVELHayWHegixgTwXxfeMmiNyWAuVR"
     },
     "132": {
@@ -4412,7 +4412,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "VERSION INITIATION\u00a0: ETRE LE PREMIER A VIDER LES 6 CASES DE SA COULEUR\nVERSION MANCALA\u00a0: AMASSER UN MAXIMUM DE FRUITS DANS SON PANIER\nVERSION AWELE\u00a0: AMASSER UN MAXIMUM DE FRUITS DANS SON PANIER"
+        "description": "VERSION INITIATION : ETRE LE PREMIER A VIDER LES 6 CASES DE SA COULEUR\nVERSION MANCALA : AMASSER UN MAXIMUM DE FRUITS DANS SON PANIER\nVERSION AWELE : AMASSER UN MAXIMUM DE FRUITS DANS SON PANIER"
     },
     "137": {
         "sql_id": "2062",
@@ -4704,7 +4704,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Compl\u00e9ter avant tout le monde le parcours du tableau de jeu qui est divis\u00e9 en deux parties\u00a0: un tour pour chaque \u00e9cole et un tour ext\u00e9rieur commun \u00e0 tout le monde."
+        "description": "Compl\u00e9ter avant tout le monde le parcours du tableau de jeu qui est divis\u00e9 en deux parties : un tour pour chaque \u00e9cole et un tour ext\u00e9rieur commun \u00e0 tout le monde."
     },
     "302": {
         "sql_id": "2081",
@@ -4865,7 +4865,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Etre le premier \u00e0 trouver les 6 mots commen\u00e7ant par la lettre indiqu\u00e9e par le \u00ab\u00a0spinner\u00a0\u00bb et dans le th\u00e8me choisi."
+        "description": "Etre le premier \u00e0 trouver les 6 mots commen\u00e7ant par la lettre indiqu\u00e9e par le \u00ab spinner \u00bb et dans le th\u00e8me choisi."
     },
     "346": {
         "sql_id": "2091",
@@ -5218,7 +5218,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Vous jouez soit le r\u00f4le d\u2019un chercheur d\u2019or qui creuse de profondes galeries, soit le r\u00f4le d\u2019un saboteur qui entrave les recherches. Mais parmi les autres joueurs, vous ignorez qui est chercheur et qui est saboteur\u00a0! Essayez de deviner pour savoir qui soutenir\u2026A la fin d\u2019une manche, si l\u2019or a \u00e9t\u00e9 trouv\u00e9, les chercheurs le partagent entre eux, sinon les saboteurs le r\u00e9cup\u00e8rent. Apr\u00e8s 3 manches, le plus riche a gagn\u00e9.",
+        "description": "Vous jouez soit le r\u00f4le d\u2019un chercheur d\u2019or qui creuse de profondes galeries, soit le r\u00f4le d\u2019un saboteur qui entrave les recherches. Mais parmi les autres joueurs, vous ignorez qui est chercheur et qui est saboteur ! Essayez de deviner pour savoir qui soutenir\u2026A la fin d\u2019une manche, si l\u2019or a \u00e9t\u00e9 trouv\u00e9, les chercheurs le partagent entre eux, sinon les saboteurs le r\u00e9cup\u00e8rent. Apr\u00e8s 3 manches, le plus riche a gagn\u00e9.",
         "game_type": "normal"
     },
     "433": {
@@ -5249,7 +5249,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Le cactus, on ne bouge pas. On voit Sam, on l\u00e8ve la main \u00ab\u00a0Hello\u00a0!\u00a0\u00bb. Ali, c\u2019est la main sur le c\u0153ur\u2026.Le but du jeu est d\u2019\u00eatre le premier \u00e0 se d\u00e9barrasser de ses cartes."
+        "description": "Le cactus, on ne bouge pas. On voit Sam, on l\u00e8ve la main \u00ab Hello ! \u00bb. Ali, c\u2019est la main sur le c\u0153ur\u2026.Le but du jeu est d\u2019\u00eatre le premier \u00e0 se d\u00e9barrasser de ses cartes."
     },
     "435": {
         "sql_id": "2113",
@@ -5294,7 +5294,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "On voit Kanja, on l\u00e8ve la main \u00ab\u00a0Ugh\u00a0!\u00a0\u00bb. Njorska, c\u2019est le doigt sur le nez . On encha\u00eene, \u00e7a va vite, on s\u2019emm\u00eale, on ramasse les cartes. Le gagnant est celui qui a pos\u00e9 toutes ses cartes."
+        "description": "On voit Kanja, on l\u00e8ve la main \u00ab Ugh ! \u00bb. Njorska, c\u2019est le doigt sur le nez . On encha\u00eene, \u00e7a va vite, on s\u2019emm\u00eale, on ramasse les cartes. Le gagnant est celui qui a pos\u00e9 toutes ses cartes."
     },
     "446": {
         "sql_id": "2116",
@@ -5309,7 +5309,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Au village de l\u2019alphabet, le g\u00e9nie n\u2019arr\u00eate pas de faire des b\u00eatises\u00a0: il cache le G derri\u00e8re la maison, le H dans le puit et le B dans le jardin. Avec l\u2019aide de la f\u00e9e \u00ab\u00a0Magica\u00a0\u00bb, les lutins essayent de remettre de l\u2019ordre dans le village-alphabet. Vas tu pouvoir les aider\u00a0?"
+        "description": "Au village de l\u2019alphabet, le g\u00e9nie n\u2019arr\u00eate pas de faire des b\u00eatises : il cache le G derri\u00e8re la maison, le H dans le puit et le B dans le jardin. Avec l\u2019aide de la f\u00e9e \u00ab Magica \u00bb, les lutins essayent de remettre de l\u2019ordre dans le village-alphabet. Vas tu pouvoir les aider ?"
     },
     "452": {
         "sql_id": "2117",
@@ -5339,7 +5339,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Un jeu de face \u00e0 face excitant\u00a0! Tourner la cl\u00e9 pour contrecarrer le jeu de son adversaire. Etre le premier \u00e0 faire tomber tous ses jetons \u00e0 travers les roues dent\u00e9es dans sa glissi\u00e8re."
+        "description": "Un jeu de face \u00e0 face excitant ! Tourner la cl\u00e9 pour contrecarrer le jeu de son adversaire. Etre le premier \u00e0 faire tomber tous ses jetons \u00e0 travers les roues dent\u00e9es dans sa glissi\u00e8re."
     },
     "474": {
         "sql_id": "2119",
@@ -5354,7 +5354,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Se souvenir de l\u2019emplacement des jetons pour retrouver le produit de la multiplication, et si c\u2019est bon, remporte les jetons\u00a0! Le joueur qui en aura le plus gagne la partie."
+        "description": "Se souvenir de l\u2019emplacement des jetons pour retrouver le produit de la multiplication, et si c\u2019est bon, remporte les jetons ! Le joueur qui en aura le plus gagne la partie."
     },
     "480": {
         "sql_id": "2120",
@@ -5369,7 +5369,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Retrouvez le coupable qui a \u00e9t\u00e9 ensorcel\u00e9 par le Sorcier Noir et a d\u00e9rob\u00e9 l\u2019anneau magique du roi. Interrogez les animaux et donnez leur la nourriture qu\u2019ils demandent. Ils vous fourniront des indices. Essayez de d\u00e9masquer le voleur et ouvrez son coffre. L\u2019anneau doit y \u00eatre cach\u00e9. Mais d\u00e9p\u00eachez vous car si vous n\u2019y arrivez pas avant 6 heures, le royaume sera perdu\u2026Travaillez ensemble car vous n\u2019y arriverez qu\u2019en coop\u00e9rant\u00a0!"
+        "description": "Retrouvez le coupable qui a \u00e9t\u00e9 ensorcel\u00e9 par le Sorcier Noir et a d\u00e9rob\u00e9 l\u2019anneau magique du roi. Interrogez les animaux et donnez leur la nourriture qu\u2019ils demandent. Ils vous fourniront des indices. Essayez de d\u00e9masquer le voleur et ouvrez son coffre. L\u2019anneau doit y \u00eatre cach\u00e9. Mais d\u00e9p\u00eachez vous car si vous n\u2019y arrivez pas avant 6 heures, le royaume sera perdu\u2026Travaillez ensemble car vous n\u2019y arriverez qu\u2019en coop\u00e9rant !"
     },
     "485": {
         "sql_id": "2121",
@@ -5384,7 +5384,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "C\u2019est la course aux ingr\u00e9dients pour r\u00e9aliser le meilleur hamburger. Il faut \u00eatre le plus rapide \u00e0 taper sur \u00ab\u00a0le pouet-pouet-burger\u00a0\u00bb afin de r\u00e9cup\u00e9rer les bonnes cartes ingr\u00e9dients avant ses adversaires."
+        "description": "C\u2019est la course aux ingr\u00e9dients pour r\u00e9aliser le meilleur hamburger. Il faut \u00eatre le plus rapide \u00e0 taper sur \u00ab le pouet-pouet-burger \u00bb afin de r\u00e9cup\u00e9rer les bonnes cartes ingr\u00e9dients avant ses adversaires."
     },
     "489": {
         "sql_id": "2122",
@@ -5399,7 +5399,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Vous partez en vacances avec votre nouvelle voiture en respectant le code de la route. Pour gagner la partie, il faut\u00a0: -obtenir votre permis de conduire \u2013aller chercher votre famille \u2013passer \u00e0 l\u2019agence prendre les cl\u00e9s de votre location \u2013arriver le premier \u00e0 destination avec la somme de 500 euros."
+        "description": "Vous partez en vacances avec votre nouvelle voiture en respectant le code de la route. Pour gagner la partie, il faut : -obtenir votre permis de conduire \u2013aller chercher votre famille \u2013passer \u00e0 l\u2019agence prendre les cl\u00e9s de votre location \u2013arriver le premier \u00e0 destination avec la somme de 500 euros."
     },
     "494": {
         "sql_id": "2123",
@@ -5414,7 +5414,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Poser les bonnes questions et \u00eatre le premier \u00e0 d\u00e9couvrir l\u2019image choisie par son adversaire.6 th\u00e8mes\u00a0: les caricatures, les objets de maison, les adultes, les enfants, les monstres et les animaux ."
+        "description": "Poser les bonnes questions et \u00eatre le premier \u00e0 d\u00e9couvrir l\u2019image choisie par son adversaire.6 th\u00e8mes : les caricatures, les objets de maison, les adultes, les enfants, les monstres et les animaux ."
     },
     "495": {
         "sql_id": "2124",
@@ -5696,7 +5696,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "PLACER 2\u00a0PIONS DE LA M\u00caME COULEUR SUR 2 CASES DIAMETRALEMENT OPPOSEES ET SUR LE M\u00caME NIVEAU DE HAUTEUR.",
+        "description": "PLACER 2 PIONS DE LA M\u00caME COULEUR SUR 2 CASES DIAMETRALEMENT OPPOSEES ET SUR LE M\u00caME NIVEAU DE HAUTEUR.",
         "image_url": "https://ipfs.io/ipfs/QmboTmG24Gy61Yo6FiAsbH9SyTgGGPWKu4NDcRVC391mRE"
     },
     "107": {
@@ -5727,7 +5727,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "VOUS ETES EN POSSESSION DE VAISSEAUX REMPLIS D\u2019OR ET DE BATEAUX CORSAIRES. VOTRE BUT\u00a0: RAMENER LE PLUS POSSIBLE DE PIECES D\u2019OR EN UTILISANT VOS CORSAIRES POUR DEFENDRE VOS VAISSEAUX ET ATTAQUER LES VAISSEAUX ENNEMIS"
+        "description": "VOUS ETES EN POSSESSION DE VAISSEAUX REMPLIS D\u2019OR ET DE BATEAUX CORSAIRES. VOTRE BUT : RAMENER LE PLUS POSSIBLE DE PIECES D\u2019OR EN UTILISANT VOS CORSAIRES POUR DEFENDRE VOS VAISSEAUX ET ATTAQUER LES VAISSEAUX ENNEMIS"
     },
     "118": {
         "sql_id": "2145",
@@ -5787,7 +5787,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "GAGNER LE PLUS DE POINTS DE LA MANIERE SUIVANTE\u00a0:\nEN CAPTURANT UNE ROUTE ENTRE 2 VILLES\nEN RELIANT PAR UNE ROUTE, EN CONTINU, LES 2 VILLES D\u2019UNE CARTE DESTINATION\nEN REALISANT LE CHEMIN LE PLUS LONG",
+        "description": "GAGNER LE PLUS DE POINTS DE LA MANIERE SUIVANTE :\nEN CAPTURANT UNE ROUTE ENTRE 2 VILLES\nEN RELIANT PAR UNE ROUTE, EN CONTINU, LES 2 VILLES D\u2019UNE CARTE DESTINATION\nEN REALISANT LE CHEMIN LE PLUS LONG",
         "image_url": "https://ipfs.io/ipfs/QmTPzxcLzgCYThJuzEcyroyjDQ69JpfEYc9TWXMNM52c8u"
     },
     "135": {
@@ -5803,7 +5803,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "ECHAPPEZ AVEC VOTRE VOITURE ROUGE \u00ab\u00a0X\u00a0\u00bb PAR L\u2019OUVERTURE SUR LE BORD DE LA SURFACE DE JEU"
+        "description": "ECHAPPEZ AVEC VOTRE VOITURE ROUGE \u00ab X \u00bb PAR L\u2019OUVERTURE SUR LE BORD DE LA SURFACE DE JEU"
     },
     "145": {
         "sql_id": "2150",
@@ -5833,7 +5833,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "ETRE LE 1ER A RECONSTITUER LES 3 CLES DE L\u2019ENIGME\u00a0:\nQUI EST LE VOLEUR\u00a0?\nOU SE CACHE-T-IL\u00a0?\nCOMMENT L\u2019ARRETER\u00a0?\nET SE RENDRE SUR LE LIEU OU IL SE CACHE POUR L\u2019ARRETER\u00a0!"
+        "description": "ETRE LE 1ER A RECONSTITUER LES 3 CLES DE L\u2019ENIGME :\nQUI EST LE VOLEUR ?\nOU SE CACHE-T-IL ?\nCOMMENT L\u2019ARRETER ?\nET SE RENDRE SUR LE LIEU OU IL SE CACHE POUR L\u2019ARRETER !"
     },
     "159": {
         "sql_id": "2152",
@@ -5878,7 +5878,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "A LA FIN DU JEU, LE VAINQUEUR SERA LE DINDON QUI AURA \u00ab\u00a0BECQUETE\u00a0\u00bb LE PLUS GRAND NOMBRE DE VERS.",
+        "description": "A LA FIN DU JEU, LE VAINQUEUR SERA LE DINDON QUI AURA \u00ab BECQUETE \u00bb LE PLUS GRAND NOMBRE DE VERS.",
         "game_type": "normal"
     },
     "208": {
@@ -5954,7 +5954,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "IMAGINEZ QUE VOUS CONDUISEZ VOTRE VOITURE SUR UN TRAJET DE 1000 KM OU 1000 BORNES\u2026\nATTENTION\u00a0! DES EVENEMENTS IMPREVUS PEUVENT VOUS EMPECHER D\u2019AVANCER"
+        "description": "IMAGINEZ QUE VOUS CONDUISEZ VOTRE VOITURE SUR UN TRAJET DE 1000 KM OU 1000 BORNES\u2026\nATTENTION ! DES EVENEMENTS IMPREVUS PEUVENT VOUS EMPECHER D\u2019AVANCER"
     },
     "264": {
         "sql_id": "2160",
@@ -5969,7 +5969,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "MAIS QUI PAIERA LA FACTURE\u00a0? EN AVANCANT DANS LE CALENDRIER VOUS VERREZ QUE VOTRE SALAIRE A SES LIMITES"
+        "description": "MAIS QUI PAIERA LA FACTURE ? EN AVANCANT DANS LE CALENDRIER VOUS VERREZ QUE VOTRE SALAIRE A SES LIMITES"
     },
     "267": {
         "sql_id": "2161",
@@ -6102,7 +6102,7 @@
         "players_min": "2",
         "players_max": "5",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -6198,7 +6198,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Le jeu consiste en une lutte farouche entre Jack et l\u2019enqu\u00eateur, pour placer astucieusement les diff\u00e9rents personnages dans l\u2019ombre ou dans la lumi\u00e8re. L\u2019enqu\u00eateur essayant de r\u00e9duire au plus vite le nombre de suspect, et Jack essayant de tout faire pour retarder ses d\u00e9ductions. Trois fins possible\u00a0: Jack quitte le quartier, l\u2019enqu\u00eateur arr\u00eate Jack ou Jack n\u2019est pas arr\u00eat\u00e9."
+        "description": "Le jeu consiste en une lutte farouche entre Jack et l\u2019enqu\u00eateur, pour placer astucieusement les diff\u00e9rents personnages dans l\u2019ombre ou dans la lumi\u00e8re. L\u2019enqu\u00eateur essayant de r\u00e9duire au plus vite le nombre de suspect, et Jack essayant de tout faire pour retarder ses d\u00e9ductions. Trois fins possible : Jack quitte le quartier, l\u2019enqu\u00eateur arr\u00eate Jack ou Jack n\u2019est pas arr\u00eat\u00e9."
     },
     "389": {
         "sql_id": "2177",
@@ -6367,7 +6367,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Par \u00e9quipe de deux, incarnez un touriste courageux et un chef de gare japonais bien d\u00e9cid\u00e9 \u00e0 asseoir tout le monde \u00e0 sa place. Pendant que le Japonais s\u2019efforcera d\u2019agiter les bras selon 3 conventions et de clamer des indications dans sa langue, son partenaire essaiera de le comprendre et de former la bonne configuration avec ses 6 cartes \u00ab\u00a0Touriste\u00a0\u00bb. A vous d\u2019\u00eatre plus expressifs et plus vifs que vos adversaires."
+        "description": "Par \u00e9quipe de deux, incarnez un touriste courageux et un chef de gare japonais bien d\u00e9cid\u00e9 \u00e0 asseoir tout le monde \u00e0 sa place. Pendant que le Japonais s\u2019efforcera d\u2019agiter les bras selon 3 conventions et de clamer des indications dans sa langue, son partenaire essaiera de le comprendre et de former la bonne configuration avec ses 6 cartes \u00ab Touriste \u00bb. A vous d\u2019\u00eatre plus expressifs et plus vifs que vos adversaires."
     },
     "440": {
         "sql_id": "2186",
@@ -6382,7 +6382,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Les joueurs essaient de se refiler des cartes. Quand vient son tour, le joueur propose une de ses bestioles, face cach\u00e9e, \u00e0 un adversaire de son choix. Il annonce en m\u00eame temps le nom de l\u2019animal\u00a0; mais il peut mentir ou dire la v\u00e9rit\u00e9. Celui qui juge mal son adversaire devra garder la carte, face visible devant lui. Le premier \u00e0 se retrouver avec 4 cartes identiques devant lui perd la partie"
+        "description": "Les joueurs essaient de se refiler des cartes. Quand vient son tour, le joueur propose une de ses bestioles, face cach\u00e9e, \u00e0 un adversaire de son choix. Il annonce en m\u00eame temps le nom de l\u2019animal ; mais il peut mentir ou dire la v\u00e9rit\u00e9. Celui qui juge mal son adversaire devra garder la carte, face visible devant lui. Le premier \u00e0 se retrouver avec 4 cartes identiques devant lui perd la partie"
     },
     "441": {
         "sql_id": "2187",
@@ -6412,7 +6412,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Courir les \u00eeles de la crique et les eaux avoisinantes pour devenir le plus c\u00e9l\u00e8bre pirate de l\u2019histoire de la flibusterie\u00a0! Tour \u00e0 tour naviguant astucieusement, combattant vaillamment et pillant sans vergogne, vous acquerrez de la renomm\u00e9e en remportant d\u2019\u00e9piques combats navals, en enterrant or et tr\u00e9sors, et en vantant vos exploits \u00e0 la taverne. Au bout de 12 mois, le plus c\u00e9l\u00e8bre d\u2019entre vous rejoindra la l\u00e9gende des Fr\u00e8res de la C\u00f4te\u00a0!"
+        "description": "Courir les \u00eeles de la crique et les eaux avoisinantes pour devenir le plus c\u00e9l\u00e8bre pirate de l\u2019histoire de la flibusterie ! Tour \u00e0 tour naviguant astucieusement, combattant vaillamment et pillant sans vergogne, vous acquerrez de la renomm\u00e9e en remportant d\u2019\u00e9piques combats navals, en enterrant or et tr\u00e9sors, et en vantant vos exploits \u00e0 la taverne. Au bout de 12 mois, le plus c\u00e9l\u00e8bre d\u2019entre vous rejoindra la l\u00e9gende des Fr\u00e8res de la C\u00f4te !"
     },
     "451": {
         "sql_id": "2189",
@@ -6427,7 +6427,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Vous et votre adversaire commencez la partie avec chacun 5 anneaux sur le plateau. Vous devez retirer 1 anneau chaque fois que vous formez un alignement de 5 marqueurs de votre couleur. La vainqueur est celui qui retire 3 de ses anneaux. .En d\u2019autres termes, pour gagner une partie de Yinsh vous devez former 3 alignements de 5 marqueurs\u00a0!"
+        "description": "Vous et votre adversaire commencez la partie avec chacun 5 anneaux sur le plateau. Vous devez retirer 1 anneau chaque fois que vous formez un alignement de 5 marqueurs de votre couleur. La vainqueur est celui qui retire 3 de ses anneaux. .En d\u2019autres termes, pour gagner une partie de Yinsh vous devez former 3 alignements de 5 marqueurs !"
     },
     "454": {
         "sql_id": "2190",
@@ -6442,7 +6442,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Les enfants du monde n\u2019ont pas tous leurs droits fondamentaux garantis, mais cela va changer\u00a0! Parcourez le monde pour leur venir en aide, et soyez plus malin et rapide que vos adversaires."
+        "description": "Les enfants du monde n\u2019ont pas tous leurs droits fondamentaux garantis, mais cela va changer ! Parcourez le monde pour leur venir en aide, et soyez plus malin et rapide que vos adversaires."
     },
     "456": {
         "sql_id": "2191",
@@ -6472,7 +6472,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Un Grand D\u00e9fi est organis\u00e9\u00a0: une course autour de l\u2019\u00eele au terme de laquelle est d\u00e9clar\u00e9 vainqueur l\u2019\u00e9quipage ayant ramass\u00e9 le plus d\u2019or dans ses cales."
+        "description": "Un Grand D\u00e9fi est organis\u00e9 : une course autour de l\u2019\u00eele au terme de laquelle est d\u00e9clar\u00e9 vainqueur l\u2019\u00e9quipage ayant ramass\u00e9 le plus d\u2019or dans ses cales."
     },
     "459": {
         "sql_id": "2193",
@@ -6517,7 +6517,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "1 plateau en bois r\u00e9versible\nDame\u00a0: 20 pions blancs et 20 pions noirs\nEchec\u00a0: 16 pi\u00e8ces blanches et 16 pi\u00e8ces marrons"
+        "description": "1 plateau en bois r\u00e9versible\nDame : 20 pions blancs et 20 pions noirs\nEchec : 16 pi\u00e8ces blanches et 16 pi\u00e8ces marrons"
     },
     "475": {
         "sql_id": "2196",
@@ -6532,7 +6532,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Trouver un nombre pr\u00e9cis de mots en rapport \u00e0 un th\u00e8me donn\u00e9 le plus vite possible\u00a0: plus on trouve de mots, plus on marque de points. Le gagnant est celui qui marque le plus de points au terme de 5 manches successives."
+        "description": "Trouver un nombre pr\u00e9cis de mots en rapport \u00e0 un th\u00e8me donn\u00e9 le plus vite possible : plus on trouve de mots, plus on marque de points. Le gagnant est celui qui marque le plus de points au terme de 5 manches successives."
     },
     "476": {
         "sql_id": "2197",
@@ -6547,7 +6547,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Tournez la Roue de la Fortune comme si vous \u00e9tiez sur le plateau t\u00e9l\u00e9vis\u00e9\u00a0! La chance sera-t-elle de votre c\u00f4t\u00e9\u00a0? La partie se d\u00e9roule en 4 manches. A pr\u00e8s la finale, le joueur qui a emport\u00e9 la plus grosse somme d\u2019argent gagne le jeu ."
+        "description": "Tournez la Roue de la Fortune comme si vous \u00e9tiez sur le plateau t\u00e9l\u00e9vis\u00e9 ! La chance sera-t-elle de votre c\u00f4t\u00e9 ? La partie se d\u00e9roule en 4 manches. A pr\u00e8s la finale, le joueur qui a emport\u00e9 la plus grosse somme d\u2019argent gagne le jeu ."
     },
     "486": {
         "sql_id": "2198",
@@ -6562,7 +6562,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Serez-vous capable de faire parvenir les avions en toute s\u00e9curit\u00e9 \u00e0 destination\u00a0? Placez toutes les pi\u00e8ces du puzzle sur le plateau de fa\u00e7on \u00e0 ce que les avions se trouvent \u00e0 la bonne place et volent dans le bonne direction."
+        "description": "Serez-vous capable de faire parvenir les avions en toute s\u00e9curit\u00e9 \u00e0 destination ? Placez toutes les pi\u00e8ces du puzzle sur le plateau de fa\u00e7on \u00e0 ce que les avions se trouvent \u00e0 la bonne place et volent dans le bonne direction."
     },
     "490": {
         "sql_id": "2199",
@@ -6733,7 +6733,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "ATTEINDRE UN DES OBJECTIFS SUIVANTS\u00a0:\nCAPTURER LES 4 BONS FANT\u00d4MES DE L\u2019ADVERSAIRE\nSE FAIRE CAPTURER SES 4 MAUVAIS FANT\u00d4MES\nFAIRE ECHAPPER DU PLATEAU UN DE SES BONS FANT\u00d4MES PAR UNE CASE DE COIN DE L\u2019ADVERSAIRE"
+        "description": "ATTEINDRE UN DES OBJECTIFS SUIVANTS :\nCAPTURER LES 4 BONS FANT\u00d4MES DE L\u2019ADVERSAIRE\nSE FAIRE CAPTURER SES 4 MAUVAIS FANT\u00d4MES\nFAIRE ECHAPPER DU PLATEAU UN DE SES BONS FANT\u00d4MES PAR UNE CASE DE COIN DE L\u2019ADVERSAIRE"
     },
     "96": {
         "sql_id": "2210",
@@ -6795,7 +6795,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "LES JOUEURS  DOIVENT ETABLIR DES LIGNES DE SYMBOLES IDENTIQUES A PARTIR DE LA TUILE POSEE PERMETTANT DE FAIRE PROGRESSER LEUR SCORE DANS LES 6 COULEURS.\nLE SCORE DES JOUEURS SERA DEFINI PAR LA + FAIBLE VALEUR DANS L\u2019ENSEMBLE DES 6 COULEURS\u00a0.CELUI QUI OBTIENT LE + HAUT SCORE L\u2019EMPORTE."
+        "description": "LES JOUEURS  DOIVENT ETABLIR DES LIGNES DE SYMBOLES IDENTIQUES A PARTIR DE LA TUILE POSEE PERMETTANT DE FAIRE PROGRESSER LEUR SCORE DANS LES 6 COULEURS.\nLE SCORE DES JOUEURS SERA DEFINI PAR LA + FAIBLE VALEUR DANS L\u2019ENSEMBLE DES 6 COULEURS .CELUI QUI OBTIENT LE + HAUT SCORE L\u2019EMPORTE."
     },
     "136": {
         "sql_id": "2214",
@@ -6810,7 +6810,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "VOUS CONSTRUISEZ DES ROUTES ET DE NOUVELLES COLONIES QUI DEVIENNENT DES VILLES, VOUS ECHANGEZ VOS RESSOURCES A UN TAUX AVANTAGEUX MAIS VOILA\u2026VOUS N\u2019\u00caTES PAS SEUL\u00a0!",
+        "description": "VOUS CONSTRUISEZ DES ROUTES ET DE NOUVELLES COLONIES QUI DEVIENNENT DES VILLES, VOUS ECHANGEZ VOS RESSOURCES A UN TAUX AVANTAGEUX MAIS VOILA\u2026VOUS N\u2019\u00caTES PAS SEUL !",
         "image_url": "https://ipfs.io/ipfs/QmNpSRqovnhnmpUxrkqrALRXDqQDSUmtQiyAtHuQobXbgD"
     },
     "144": {
@@ -6917,7 +6917,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "A PRESENT TOUTE LA FAMILLE PEUT GAGNER LA PARTIE EN JOUANT A TRIVIAL POURSUIT\u00a0!"
+        "description": "A PRESENT TOUTE LA FAMILLE PEUT GAGNER LA PARTIE EN JOUANT A TRIVIAL POURSUIT !"
     },
     "265": {
         "sql_id": "2222",
@@ -6932,7 +6932,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "CHACUN A SON MOT A DIRE\nQUI OBTIENDRA LE MEILLEUR SCORE\u00a0EN POSANT LES BONNES LETTRES\u00a0?"
+        "description": "CHACUN A SON MOT A DIRE\nQUI OBTIENDRA LE MEILLEUR SCORE EN POSANT LES BONNES LETTRES ?"
     },
     "285": {
         "sql_id": "2223",
@@ -6991,7 +6991,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Etre le premier \u00e0 totaliser 25 Miam en r\u00e9pondant aux questions pos\u00e9es afin de tenter l\u2019ultime \u00e9preuve\u00a0: Le Burger de la Mort\u00a0!"
+        "description": "Etre le premier \u00e0 totaliser 25 Miam en r\u00e9pondant aux questions pos\u00e9es afin de tenter l\u2019ultime \u00e9preuve : Le Burger de la Mort !"
     },
     "358": {
         "sql_id": "2227",
@@ -7021,7 +7021,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Chaque joueur doit b\u00e2tir une cit\u00e9 \u00e0 l\u2019aide de cartes repr\u00e9sentant les quartiers de la ville. A chaque tour, les joueurs doivent incarner un personnage dot\u00e9 d\u2019un pouvoir particulier\u00a0: construire plus vite, d\u00e9truire un quartier, assassiner, voler, remplir son tr\u00e9sor\u2026.Le gagnant sera celui qui aura b\u00e2ti la plus belle cit\u00e9."
+        "description": "Chaque joueur doit b\u00e2tir une cit\u00e9 \u00e0 l\u2019aide de cartes repr\u00e9sentant les quartiers de la ville. A chaque tour, les joueurs doivent incarner un personnage dot\u00e9 d\u2019un pouvoir particulier : construire plus vite, d\u00e9truire un quartier, assassiner, voler, remplir son tr\u00e9sor\u2026.Le gagnant sera celui qui aura b\u00e2ti la plus belle cit\u00e9."
     },
     "376": {
         "sql_id": "2229",
@@ -7143,7 +7143,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Les canards barbotent en file indienne, dans un ordre sans cesse chamboul\u00e9 par les joueurs. Mais personne n\u2019est en s\u00e9curit\u00e9 dans ces eaux mitraill\u00e9es, et chacun manoeuvre en \u00e9vitant de stationner dans un ligne de tir\u00a0! Le dernier canard survivant sera le gagnant."
+        "description": "Les canards barbotent en file indienne, dans un ordre sans cesse chamboul\u00e9 par les joueurs. Mais personne n\u2019est en s\u00e9curit\u00e9 dans ces eaux mitraill\u00e9es, et chacun manoeuvre en \u00e9vitant de stationner dans un ligne de tir ! Le dernier canard survivant sera le gagnant."
     },
     "438": {
         "sql_id": "2237",
@@ -7158,7 +7158,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Dans \u00ab\u00a0l\u2019Est sauvage\u00a0\u00bb, le petit hameau de Thiercelieux est devenu la proie des Loups-Garous. Les villageois doivent se ressaisir pour \u00e9radiquer ce nouveau fl\u00e9au avant de tous \u00eatre d\u00e9vor\u00e9s\u2026 Qui \u00eates vous\u00a0? Un Loup-Garou ou un villageois\u00a0?."
+        "description": "Dans \u00ab l\u2019Est sauvage \u00bb, le petit hameau de Thiercelieux est devenu la proie des Loups-Garous. Les villageois doivent se ressaisir pour \u00e9radiquer ce nouveau fl\u00e9au avant de tous \u00eatre d\u00e9vor\u00e9s\u2026 Qui \u00eates vous ? Un Loup-Garou ou un villageois ?."
     },
     "448": {
         "sql_id": "2238",
@@ -7173,7 +7173,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Jeu de n\u00e9gociation, vous prendrez le r\u00f4le d\u2019un marchand et tenterez de faire fortune en visitant les diff\u00e9rents b\u00e2timents de la ville. Chaque b\u00e2timent vous permet de r\u00e9aliser une action, comme obtenir des marchandises, recevoir une commande ou un message \u00e0 livrer. .En \u00e9tant fin strat\u00e8ge et bon n\u00e9gociateur vous parviendrez  toujours \u00e0 obtenir ce que vous voulez et, peut-\u00eatre \u00e0 toucher la plus grosse part des profits\u00a0!"
+        "description": "Jeu de n\u00e9gociation, vous prendrez le r\u00f4le d\u2019un marchand et tenterez de faire fortune en visitant les diff\u00e9rents b\u00e2timents de la ville. Chaque b\u00e2timent vous permet de r\u00e9aliser une action, comme obtenir des marchandises, recevoir une commande ou un message \u00e0 livrer. .En \u00e9tant fin strat\u00e8ge et bon n\u00e9gociateur vous parviendrez  toujours \u00e0 obtenir ce que vous voulez et, peut-\u00eatre \u00e0 toucher la plus grosse part des profits !"
     },
     "449": {
         "sql_id": "2239",
@@ -7188,7 +7188,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Une bande de gangsters se partage un magot dans un entrep\u00f4t d\u00e9saffect\u00e9, mais personne n\u2019ait d\u2019accord sur les modalit\u00e9s de partage\u00a0! On sort les flingues et rapidement, tout le monde braque tout le monde\u2026Le gangster survivant le plus riche gagne la partie ."
+        "description": "Une bande de gangsters se partage un magot dans un entrep\u00f4t d\u00e9saffect\u00e9, mais personne n\u2019ait d\u2019accord sur les modalit\u00e9s de partage ! On sort les flingues et rapidement, tout le monde braque tout le monde\u2026Le gangster survivant le plus riche gagne la partie ."
     },
     "450": {
         "sql_id": "2240",
@@ -7263,7 +7263,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Deux milles questions, s\u00e9lectionn\u00e9es par des sp\u00e9cialistes, vous permettront de d\u00e9couvrir ou de mieux conna\u00eetre Paris en mati\u00e8re d\u2019histoire, de culture, de tourisme, d\u2019\u00e9conomie, de sport ou de vie contemporaine. Le gagnant est le premier \u00e0 collecter les 5 cartes \u00ab\u00a0\u00e9tape\u00a0\u00bb."
+        "description": "Deux milles questions, s\u00e9lectionn\u00e9es par des sp\u00e9cialistes, vous permettront de d\u00e9couvrir ou de mieux conna\u00eetre Paris en mati\u00e8re d\u2019histoire, de culture, de tourisme, d\u2019\u00e9conomie, de sport ou de vie contemporaine. Le gagnant est le premier \u00e0 collecter les 5 cartes \u00ab \u00e9tape \u00bb."
     },
     "503": {
         "sql_id": "2245",
@@ -7478,7 +7478,7 @@
         "players_min": "2",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -7495,7 +7495,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -7529,7 +7529,7 @@
         "players_min": "2",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -7583,7 +7583,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Jeu \u00e9ducatif qui se joue en 2 \u00e9quipes. Le but p\u00e9dagogique est de faire prendre conscience aux joueurs qu\u2019il existe une grande diversit\u00e9 de plantes \u00e0 l\u2019origine de ce que nous consommons quotidiennement. La partie est termin\u00e9e lorsque les 3 cases \u00ab\u00a0pomme de terre\u00a0\u00bb, au centre du plateau, sont occup\u00e9es. L\u2019\u00e9quipe victorieuse est celle qui aura le plus de points.",
+        "description": "Jeu \u00e9ducatif qui se joue en 2 \u00e9quipes. Le but p\u00e9dagogique est de faire prendre conscience aux joueurs qu\u2019il existe une grande diversit\u00e9 de plantes \u00e0 l\u2019origine de ce que nous consommons quotidiennement. La partie est termin\u00e9e lorsque les 3 cases \u00ab pomme de terre \u00bb, au centre du plateau, sont occup\u00e9es. L\u2019\u00e9quipe victorieuse est celle qui aura le plus de points.",
         "image_url": "https://ipfs.io/ipfs/QmNr2r9xZVX5k9nyShhnYiRM6toqAs1e8eLNz5aGHJrB28",
         "game_type": "normal"
     },
@@ -7617,7 +7617,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "A travers bois, \u00e9tangs et montagnes, partez \u00e0 la recherche des animaux de nos r\u00e9gions. Faire preuve de patience et d\u2019astuce pour r\u00e9ussir \u00e0 observer le plus grand nombre d\u2019animaux. A chaque \u00e9tape, le jeu vous permet de choisir vos actions pour atteindre plus vite votre but ou retarder vos concurrents. Qui sera le meilleur observateur sur le Sentier Nature\u00a0? Jeu de parcours simple, malin et instructif.",
+        "description": "A travers bois, \u00e9tangs et montagnes, partez \u00e0 la recherche des animaux de nos r\u00e9gions. Faire preuve de patience et d\u2019astuce pour r\u00e9ussir \u00e0 observer le plus grand nombre d\u2019animaux. A chaque \u00e9tape, le jeu vous permet de choisir vos actions pour atteindre plus vite votre but ou retarder vos concurrents. Qui sera le meilleur observateur sur le Sentier Nature ? Jeu de parcours simple, malin et instructif.",
         "image_url": "https://ipfs.io/ipfs/QmWB7gpUAwNXxxm5hCJM2Cyboff9KV4QbQ34SAkW3XJpCK",
         "game_type": "normal"
     },
@@ -7651,7 +7651,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Un voyage passionnant au c\u0153ur de la nature. L\u2019objectif est d\u2019atteindre les diff\u00e9rents milieux de la Terre pour r\u00e9pondre \u00e0 de surprenantes questions sur la Nature et l\u2019environnement. Une bonne r\u00e9ponse et vous tirez une carte \u00ab\u00a0+\u00a0\u00bb dans l\u2019espoir de r\u00e9cup\u00e9rer les points Viva tant convoit\u00e9s. Le vainqueur est le premier joueur \u00e0 r\u00e9aliser l\u2019objectif figurant sur sa carte \u00ab\u00a0Destination\u00a0\u00bb tir\u00e9e en d\u00e9but de partie.",
+        "description": "Un voyage passionnant au c\u0153ur de la nature. L\u2019objectif est d\u2019atteindre les diff\u00e9rents milieux de la Terre pour r\u00e9pondre \u00e0 de surprenantes questions sur la Nature et l\u2019environnement. Une bonne r\u00e9ponse et vous tirez une carte \u00ab + \u00bb dans l\u2019espoir de r\u00e9cup\u00e9rer les points Viva tant convoit\u00e9s. Le vainqueur est le premier joueur \u00e0 r\u00e9aliser l\u2019objectif figurant sur sa carte \u00ab Destination \u00bb tir\u00e9e en d\u00e9but de partie.",
         "image_url": "https://ipfs.io/ipfs/QmW11SAUvGA45KUzYtExbd7jnHCfPNyArqTBmkmSdN26rh",
         "game_type": "normal"
     },
@@ -7685,7 +7685,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "3jeux\u00a0: \t- Memory des maisons (d\u00e8s 4 ans)\n- Mistigri du carton (d\u00e8s 5 ans)\n- Le Petit Marco (d\u00e8s 6 ans)\n\nAu cours d\u2019un grand voyage, Marco a fait plein de rencontres et d\u00e9couvert la diversit\u00e9 des maisons du monde. A toi de retrouver la maison qui correspond \u00e0 chacun de ses amis\u00a0! Mais attention, l\u2019Endormeur, le Voleur et le magicien vont te compliquer la t\u00e2che\u2026",
+        "description": "3jeux : \t- Memory des maisons (d\u00e8s 4 ans)\n- Mistigri du carton (d\u00e8s 5 ans)\n- Le Petit Marco (d\u00e8s 6 ans)\n\nAu cours d\u2019un grand voyage, Marco a fait plein de rencontres et d\u00e9couvert la diversit\u00e9 des maisons du monde. A toi de retrouver la maison qui correspond \u00e0 chacun de ses amis ! Mais attention, l\u2019Endormeur, le Voleur et le magicien vont te compliquer la t\u00e2che\u2026",
         "image_url": "https://ipfs.io/ipfs/QmUKyi3Fp8aGopkYgMyfDeojBmZyeNnVNu5LdNLLTg5VC1",
         "game_type": "normal"
     },
@@ -7702,14 +7702,14 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "Trinquer plus vite que les autres joueurs en associant correctement le bon geste (li\u00e9 \u00e0 la boisson) \u00e0 la bonne parole (li\u00e9 \u00e0 la nationalit\u00e9 du buveur) pour devenir champion du monde de l\u2019ap\u00e9ro\u00a0!",
+        "description": "Trinquer plus vite que les autres joueurs en associant correctement le bon geste (li\u00e9 \u00e0 la boisson) \u00e0 la bonne parole (li\u00e9 \u00e0 la nationalit\u00e9 du buveur) pour devenir champion du monde de l\u2019ap\u00e9ro !",
         "image_url": "https://ipfs.io/ipfs/QmbZjDQNpDNM6gPkb1WZbatthViN4KtRcLUxACJUqrfphZ",
         "game_type": "normal"
     },
     "529": {
         "sql_id": "2271",
         "id": "529",
-        "name": "Imagin\u2019Afrique\n(jeu de 7 familles\u00a0)",
+        "name": "Imagin\u2019Afrique\n(jeu de 7 familles )",
         "vendor": "La m\u00e8che rebelle",
         "type": "M\u00e9moire",
         "players_min": "2",
@@ -7736,7 +7736,7 @@
             "max": -1,
             "isMouth": false
         },
-        "description": "R\u00e9sum\u00e9\u00a0: Une question est lue. Chacun invente et \u00e9crit en secret une fausse r\u00e9ponse\u00a0. La bonne et les fausses r\u00e9ponses sont m\u00e9lang\u00e9es et lues par le meneur de jeu. O\u00f9 est la bonne r\u00e9ponse\u00a0? Chacun vote. Si des joueurs ont mis\u00e9 sur la r\u00e9ponse que vous aviez invent\u00e9, ils sont pi\u00e9g\u00e9s. C\u2019est gagn\u00e9\u00a0!\nUne partie comprend 3 manches de 6 questions chacune. A la fin de chaque manche, le meilleur score gagne. Le vainqueur de la partie est le joueur qui remporte 2 manches.",
+        "description": "R\u00e9sum\u00e9 : Une question est lue. Chacun invente et \u00e9crit en secret une fausse r\u00e9ponse . La bonne et les fausses r\u00e9ponses sont m\u00e9lang\u00e9es et lues par le meneur de jeu. O\u00f9 est la bonne r\u00e9ponse ? Chacun vote. Si des joueurs ont mis\u00e9 sur la r\u00e9ponse que vous aviez invent\u00e9, ils sont pi\u00e9g\u00e9s. C\u2019est gagn\u00e9 !\nUne partie comprend 3 manches de 6 questions chacune. A la fin de chaque manche, le meilleur score gagne. Le vainqueur de la partie est le joueur qui remporte 2 manches.",
         "image_url": "https://ipfs.io/ipfs/QmcDXvuaBqmexqfdZZXAQBTJYCSGJobmDzEiZupRhwjn4N",
         "game_type": "normal"
     },
@@ -7753,7 +7753,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "BUT DU JEU\u00a0\n\n Utilisez vos anticorps et votre mati\u00e8re grise afin de vous d\u00e9barrasser du virus de couleur rouge.",
+        "description": "BUT DU JEU \n\n Utilisez vos anticorps et votre mati\u00e8re grise afin de vous d\u00e9barrasser du virus de couleur rouge.",
         "image_url": "https://ipfs.io/ipfs/QmXY56ZG5LDyxtEryA5y4oG9CyvBgRiZvin1nQuS8k8TkA",
         "game_type": "normal"
     },
@@ -7787,7 +7787,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Placer correctement et le plus vite possible, les d\u00e9s de couleur conform\u00e9ment aux positions pr\u00e9vues par les cartes, avant que le minuteur ne retentisse .Le plus rapide gagnera\u00a0!",
+        "description": "Placer correctement et le plus vite possible, les d\u00e9s de couleur conform\u00e9ment aux positions pr\u00e9vues par les cartes, avant que le minuteur ne retentisse .Le plus rapide gagnera !",
         "image_url": "https://ipfs.io/ipfs/QmcyRt9rPHA3tcyShnZfdCxMQrjq86iifcdhHPs7VC3t48",
         "game_type": "normal"
     },
@@ -7902,7 +7902,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -7940,7 +7940,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Il s'agit de d\u00e9placer une boule tr\u00e8s l\u00e9g\u00e8re sur le plateau en soufflant dessus, ni trop peu, ni trop fort... Cette fois, souffler, c'est jouer\u00a0! C'est dr\u00f4le et \u00e7a change un peu des autres jeux de soci\u00e9t\u00e9, le seul probl\u00e8me c'est de souffler en riant\u00a0!",
+        "description": "Il s'agit de d\u00e9placer une boule tr\u00e8s l\u00e9g\u00e8re sur le plateau en soufflant dessus, ni trop peu, ni trop fort... Cette fois, souffler, c'est jouer ! C'est dr\u00f4le et \u00e7a change un peu des autres jeux de soci\u00e9t\u00e9, le seul probl\u00e8me c'est de souffler en riant !",
         "image_url": "https://ipfs.io/ipfs/QmafJBvmr5QQFQQ8dhe8SaPUpVz85SUgrcbCjXEtzMPKpt",
         "game_type": "normal"
     },
@@ -7987,7 +7987,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -7998,7 +7998,7 @@
     "546": {
         "sql_id": "2288",
         "id": "546",
-        "name": "TIMES UP\u00a0! FAMILY",
+        "name": "TIMES UP ! FAMILY",
         "vendor": "ASMODEE",
         "type": "DEDUCTION",
         "players_min": "4",
@@ -8025,7 +8025,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Qui a p\u00e9t\u00e9\u00a0?\nNier \u00eatre l\u2019auteur du d\u00e9lit\u2026ou se d\u00e9noncer.Ce sont les choix que vous avez \u00e0 faire pour accumuler le moins de points de honte possible.",
+        "description": "Qui a p\u00e9t\u00e9 ?\nNier \u00eatre l\u2019auteur du d\u00e9lit\u2026ou se d\u00e9noncer.Ce sont les choix que vous avez \u00e0 faire pour accumuler le moins de points de honte possible.",
         "image_url": "https://ipfs.io/ipfs/QmNSVpr2sG6EV1ZAriAdDMtXsbKgewboppydRwHrvNjJ5T",
         "game_type": "normal"
     },
@@ -8059,7 +8059,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Au ch\u00e2teau de Beaupelage, le Baron a dissimul\u00e9 sa fortune dans les tableaux de ses anc\u00eatres.\nExplore le ch\u00e2teau pour trouver les diamants mais gare aux fantomes\u00a0!\nCelui qui r\u00e9cup\u00e8re le plus de diamants gagne la partie\u00a0!",
+        "description": "Au ch\u00e2teau de Beaupelage, le Baron a dissimul\u00e9 sa fortune dans les tableaux de ses anc\u00eatres.\nExplore le ch\u00e2teau pour trouver les diamants mais gare aux fantomes !\nCelui qui r\u00e9cup\u00e8re le plus de diamants gagne la partie !",
         "image_url": "https://ipfs.io/ipfs/QmR3m14PE8rcxG19aD5gHpdpuuTyY45uipLZywsthtWpeM",
         "game_type": "normal"
     },
@@ -8076,7 +8076,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Parcours les couloirs de la py-rat-mide pour trouver les tr\u00e9sors, mais prends garde \u00e0 la momie\u00a0!\nR\u00e9cup\u00e8re les tr\u00e9sors et r\u00e9souds les \u00e9nigmes scarab\u00e9es, celui qui a le plus de points gagne la partie\u00a0!",
+        "description": "Parcours les couloirs de la py-rat-mide pour trouver les tr\u00e9sors, mais prends garde \u00e0 la momie !\nR\u00e9cup\u00e8re les tr\u00e9sors et r\u00e9souds les \u00e9nigmes scarab\u00e9es, celui qui a le plus de points gagne la partie !",
         "image_url": "https://ipfs.io/ipfs/QmcNUcFLNgHM6RGNJduZrbPxMJ9MKuzYj2dU5VkGbvSjrH",
         "game_type": "normal"
     },
@@ -8089,7 +8089,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8100,7 +8100,7 @@
     "553": {
         "sql_id": "2294",
         "id": "553",
-        "name": "CHUT\u00a0!\nMucks mauschen still",
+        "name": "CHUT !\nMucks mauschen still",
         "vendor": "HABA",
         "type": "ADRESSE",
         "players_min": "2",
@@ -8174,7 +8174,7 @@
         "players_min": "2",
         "players_max": "6",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8191,7 +8191,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8208,7 +8208,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8304,7 +8304,7 @@
     "242": {
         "sql_id": "2306",
         "id": "242",
-        "name": "STAND UP\u00a0!",
+        "name": "STAND UP !",
         "vendor": "IELLO",
         "type": "JEU DE MIME",
         "players_min": "2",
@@ -8321,13 +8321,13 @@
     "244": {
         "sql_id": "2307",
         "id": "244",
-        "name": "LE ROI\u00a0CASIMIR ET SES ANIMAUX",
+        "name": "LE ROI CASIMIR ET SES ANIMAUX",
         "vendor": "SELECTA",
         "type": "EDUCATIF",
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8355,7 +8355,7 @@
     "247": {
         "sql_id": "2309",
         "id": "247",
-        "name": "ALARME\u00a0!",
+        "name": "ALARME !",
         "vendor": "haba",
         "type": "ADRESSE ET RAPIDITE",
         "players_min": "2",
@@ -8372,7 +8372,7 @@
     "272": {
         "sql_id": "2310",
         "id": "272",
-        "name": "A TOI DE DEVINER\u00a0!",
+        "name": "A TOI DE DEVINER !",
         "vendor": "HABA",
         "type": "JEU DE DEVINETTES",
         "players_min": "2",
@@ -8389,7 +8389,7 @@
     "281": {
         "sql_id": "2311",
         "id": "281",
-        "name": "6 QUI PREND\u00a0!",
+        "name": "6 QUI PREND !",
         "vendor": "GIGAMIC",
         "type": "STRATEGIE",
         "players_min": "2",
@@ -8433,7 +8433,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Une simple pression et la patate lance sa folle musique, qui va s\u2019acc\u00e9l\u00e9rer au fur et \u00e0 mesure qu\u2019elle passe de mains en mains. Lorsque la musique s\u2019arr\u00eate le joueur qui tient la patate est p\u00e9nalis\u00e9\u00a0:il re\u00e7oit une chips. Au bout de 3 chips il est \u00e9limin\u00e9\u00a0! \n.",
+        "description": "Une simple pression et la patate lance sa folle musique, qui va s\u2019acc\u00e9l\u00e9rer au fur et \u00e0 mesure qu\u2019elle passe de mains en mains. Lorsque la musique s\u2019arr\u00eate le joueur qui tient la patate est p\u00e9nalis\u00e9 :il re\u00e7oit une chips. Au bout de 3 chips il est \u00e9limin\u00e9 ! \n.",
         "image_url": "https://ipfs.io/ipfs/Qma5M2yh7XMMJPxfP8u35muRGUwjK7vFnq9vxoZCc82DpN",
         "game_type": "normal"
     },
@@ -8450,7 +8450,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Posez les aliments sur la grille mais\u2026 Attention ce barbecue est tr\u00e8s chatouilleux. Il risque de faire sauter la grille et tous les aliments avec\u00a0!\nPour gagner il te faudra \u00eatre le premier \u00e0 attraper 3 aliments.",
+        "description": "Posez les aliments sur la grille mais\u2026 Attention ce barbecue est tr\u00e8s chatouilleux. Il risque de faire sauter la grille et tous les aliments avec !\nPour gagner il te faudra \u00eatre le premier \u00e0 attraper 3 aliments.",
         "image_url": "https://ipfs.io/ipfs/QmQ4PL8fzyS6SkwWpWs3zAoxLDu8RwXx1mDXJTRAYAioik",
         "game_type": "normal"
     },
@@ -8467,7 +8467,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Etre le premier joueur \u00e0 gagner 6 cartes, en r\u00e9ussissant les challenges \u00ab\u00a0action\u00a0\u00bb ou \u00ab\u00a0v\u00e9rit\u00e9\u00a0\u00bb\u00a0!",
+        "description": "Etre le premier joueur \u00e0 gagner 6 cartes, en r\u00e9ussissant les challenges \u00ab action \u00bb ou \u00ab v\u00e9rit\u00e9 \u00bb !",
         "image_url": "https://ipfs.io/ipfs/Qmcy3LUvx5BZTqccbJUzv2AfWSEvo3caELcJZdNvHyfoxx",
         "game_type": "normal"
     },
@@ -8484,7 +8484,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Toute la famille est rassembl\u00e9e\u2026\nMais personne n\u2019a invit\u00e9 Tante Carabosse.\nEssayez de vous d\u00e9barrassez de toutes vos cartes de famille. Si vous n\u2019avez pas la bonne carte bluffez.\nMais ne vous faite pas prendre, sinon gare \u00e0 l\u2019amande\u00a0!",
+        "description": "Toute la famille est rassembl\u00e9e\u2026\nMais personne n\u2019a invit\u00e9 Tante Carabosse.\nEssayez de vous d\u00e9barrassez de toutes vos cartes de famille. Si vous n\u2019avez pas la bonne carte bluffez.\nMais ne vous faite pas prendre, sinon gare \u00e0 l\u2019amande !",
         "image_url": "https://ipfs.io/ipfs/QmPa9NtYJyqmoy1YAqG8XExaDacYhecYu3ZSTftE3pR4zH",
         "game_type": "normal"
     },
@@ -8501,7 +8501,7 @@
             "max": 5,
             "isMouth": false
         },
-        "description": "Pour gagner la partie \u00e9vite de te faire croquer par le requin\u00a0!\nEmpare-toi du d\u00e9 , lance-le et obtiens la bonne couleur pour avancer.",
+        "description": "Pour gagner la partie \u00e9vite de te faire croquer par le requin !\nEmpare-toi du d\u00e9 , lance-le et obtiens la bonne couleur pour avancer.",
         "image_url": "https://ipfs.io/ipfs/QmYTTbDWNjkvL4KLqdjkPAPmgcPnFW7bL3sBcwQhwGcu6B",
         "game_type": "normal"
     },
@@ -8530,7 +8530,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8598,7 +8598,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8642,7 +8642,7 @@
     "567": {
         "sql_id": "2326",
         "id": "567",
-        "name": "BANG\u00a0!",
+        "name": "BANG !",
         "vendor": "DVGIOCHI",
         "type": "JEU DE ROLES",
         "players_min": "4",
@@ -8801,7 +8801,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8896,7 +8896,7 @@
         "players_min": "2",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -8964,7 +8964,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9076,13 +9076,13 @@
     "586": {
         "sql_id": "2357",
         "id": "586",
-        "name": "L\u2019ETABLI\u00a0 \u00ab\u00a0PRO\u00a0\u00bb",
+        "name": "L\u2019ETABLI  \u00ab PRO \u00bb",
         "vendor": "small foot design",
         "type": "CONSTRUCTION",
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9093,13 +9093,13 @@
     "587": {
         "sql_id": "2358",
         "id": "587",
-        "name": "BANC A COGNER \u00ab\u00a0HERISSON\u00a0\u00bb",
+        "name": "BANC A COGNER \u00ab HERISSON \u00bb",
         "vendor": "SMALL FOOT DESIGN",
         "type": "JOUET",
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9166,7 +9166,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9183,7 +9183,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9387,7 +9387,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Une bande de joyeux castors entreprend la construction d\u2019un barrage, mais de vilains rats\u00a0ont d\u00e9cid\u00e9 de saboter leur travail : il faut s\u2019en d\u00e9barasser au plus vite ! \nDes cartes vont vous y aider. Il va falloir \u00eatre bien attentifs car les cartes ne sont que rarement d\u00e9voil\u00e9es et elles changent de place sans arr\u00eat. \nM\u00e9moire, bluff et coups fourr\u00e9s sont au menu de ce jeu r\u00e9serv\u00e9 aux castors les plus rus\u00e9s !",
+        "description": "Une bande de joyeux castors entreprend la construction d\u2019un barrage, mais de vilains rats ont d\u00e9cid\u00e9 de saboter leur travail : il faut s\u2019en d\u00e9barasser au plus vite ! \nDes cartes vont vous y aider. Il va falloir \u00eatre bien attentifs car les cartes ne sont que rarement d\u00e9voil\u00e9es et elles changent de place sans arr\u00eat. \nM\u00e9moire, bluff et coups fourr\u00e9s sont au menu de ce jeu r\u00e9serv\u00e9 aux castors les plus rus\u00e9s !",
         "image_url": "https://ipfs.io/ipfs/QmewF8RKRiPvLrFUhnKWXLr91pFSnS467ZoYLZzMRecPS7",
         "game_type": "normal"
     },
@@ -9400,7 +9400,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9451,7 +9451,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9674,7 +9674,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Cr\u00e9e tes propres mandalas\u00a0!",
+        "description": "Cr\u00e9e tes propres mandalas !",
         "image_url": "https://ipfs.io/ipfs/Qma1rHX5RPoWCUUHgzFSf4sp3yMr4WPkG1uzdBXNZU4VA4",
         "game_type": "normal"
     },
@@ -9691,7 +9691,7 @@
             "max": 7,
             "isMouth": false
         },
-        "description": "Cr\u00e9e tes propres mandalas\u00a0!",
+        "description": "Cr\u00e9e tes propres mandalas !",
         "image_url": "https://ipfs.io/ipfs/QmTMeFgysnUxxVYifLSb7MXKZALTXxgoYeSLtkZsbgYh3u",
         "game_type": "normal"
     },
@@ -9894,7 +9894,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Pour d\u00e9marrer, les billes sont rang\u00e9es sur la position de d\u00e9part indiqu\u00e9e par une bande de couleur correspondante.\nLes billes blanches sont sur le plateau central, plateau qui ne peut \u00eatre tourn\u00e9 que d'un quart ou d'un demi-tour \u00e0 la fois.\nA l'aide d'un d\u00e9, on avance ses pi\u00e8ces pour tenter d'atteindre 3 points oppos\u00e9s : l'Ouest, le\u00a0Nord et l'Est.",
+        "description": "Pour d\u00e9marrer, les billes sont rang\u00e9es sur la position de d\u00e9part indiqu\u00e9e par une bande de couleur correspondante.\nLes billes blanches sont sur le plateau central, plateau qui ne peut \u00eatre tourn\u00e9 que d'un quart ou d'un demi-tour \u00e0 la fois.\nA l'aide d'un d\u00e9, on avance ses pi\u00e8ces pour tenter d'atteindre 3 points oppos\u00e9s : l'Ouest, le Nord et l'Est.",
         "image_url": "https://ipfs.io/ipfs/QmVPXwu9fg17sXFEyMave1T8KEFoHojrA1zrVW9Dy3KeMU",
         "game_type": "surdim"
     },
@@ -9925,7 +9925,7 @@
             "max": 9,
             "isMouth": false
         },
-        "description": "Un seul but : se d\u00e9barrasser de ses d\u00e9s. Le pi\u00e8ge : moins vous en avez, plus ce sera\u00a0difficile!",
+        "description": "Un seul but : se d\u00e9barrasser de ses d\u00e9s. Le pi\u00e8ge : moins vous en avez, plus ce sera difficile!",
         "image_url": "https://ipfs.io/ipfs/QmPoF199DKsuuTwbQyFxF64i9iNo2AzM6ADAJDCnAxvwSf",
         "game_type": "normal"
     },
@@ -9984,7 +9984,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -9997,7 +9997,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10029,7 +10029,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10043,7 +10043,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10058,7 +10058,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10072,7 +10072,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10119,7 +10119,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10180,7 +10180,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10195,7 +10195,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10384,7 +10384,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10475,7 +10475,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10488,7 +10488,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10641,7 +10641,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10673,7 +10673,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10689,7 +10689,7 @@
         "players_min": "2",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -10781,7 +10781,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11492,7 +11492,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11602,7 +11602,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11632,7 +11632,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11646,7 +11646,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11661,7 +11661,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11759,7 +11759,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11773,7 +11773,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11789,7 +11789,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -11955,7 +11955,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -12345,7 +12345,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -12506,7 +12506,7 @@
         "players_min": "1",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -12538,7 +12538,7 @@
         "players_min": "2",
         "players_max": "5",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -12633,7 +12633,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -12649,7 +12649,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -12839,7 +12839,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -13568,7 +13568,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -13633,7 +13633,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -13649,7 +13649,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -13765,7 +13765,7 @@
         "players_min": "2",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -13901,7 +13901,7 @@
         "players_min": "2",
         "players_max": "4",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14176,7 +14176,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14314,7 +14314,7 @@
         "players_min": "1",
         "players_max": "-1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14327,7 +14327,7 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14340,7 +14340,7 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14400,7 +14400,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14417,7 +14417,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14485,7 +14485,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14502,7 +14502,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14519,7 +14519,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14568,7 +14568,7 @@
         "players_min": "1",
         "players_max": "3",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14683,7 +14683,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -14734,7 +14734,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -15290,7 +15290,7 @@
         "players_min": "1",
         "players_max": "2",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
@@ -15307,7 +15307,7 @@
         "players_min": "1",
         "players_max": "1",
         "age": {
-            "min": 20,
+            "min": 2,
             "max": 3,
             "isMouth": false
         },
