@@ -10,9 +10,51 @@
     <p v-if="description">
       Description : {{ description }}
     </p>
-    <p v-if="players_min && players_max">
+    <p v-if="players_min != -1 && players_max != -1">
       Players : {{ players_min }} - {{ players_max }}
     </p>
+    <p v-if="players_min != -1 && players_max == -1">
+      Players : {{ players_min }}
+    </p>
+    <p v-if="players_min == -1 && players_max != -1">
+      Players : {{ players_max }}
+    </p>
+    <div v-if="age">
+      <div v-if="age.isMouth">
+        <p v-if="age.min && age.max && age.max != -1">
+          Age : {{ age.min }} months - {{ age.max }} months
+        </p>
+        <p v-else-if="age.min && age.max && age.max == -1">
+          Age : more than {{ age.min }} months
+        </p>
+        <p v-else-if="age.min && age.max && age.min == -1">
+          Age : less than {{ age.max }} months
+        </p>
+        <p v-else-if="age.min && !age.max">
+          Age : {{ age.min }} months
+        </p>
+        <p v-else-if="!age.min && age.max">
+          Age : {{ age.max }} months
+        </p>
+      </div>
+      <div v-else>
+        <p v-if="age.min && age.max && age.max != -1">
+          Age : {{ age.min }} years - {{ age.max }} years
+        </p>
+        <p v-else-if="age.min && age.max && age.max == -1">
+          Age : more than {{ age.min }} years
+        </p>
+        <p v-else-if="age.min && age.max && age.min == -1">
+          Age : less than {{ age.max }} years
+        </p>
+        <p v-else-if="age.min && !age.max">
+          Age : {{ age.min }} years
+        </p>
+        <p v-else-if="!age.min && age.max">
+          Age : {{ age.max }} years
+        </p>
+      </div>
+    </div>
     <p v-if="type">
       Type : {{ type }}
     </p>
@@ -21,7 +63,7 @@
     </p>
     <img
       v-if="image"
-      :src="'http://ludoacigne.free.fr/jeux/images/' + image"
+      :src="image"
       class="game-img"
     >
   </div>
@@ -71,6 +113,7 @@ export default defineComponent({
         this.image = this.game.image_url || this.game.image
         this.players_min = this.game.players_min
         this.players_max = this.game.players_max
+        this.age = this.game.age
         this.type = this.game.type
         this.vendor = this.game.vendor
         // Add game name to the title

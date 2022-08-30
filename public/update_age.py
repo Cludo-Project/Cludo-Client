@@ -8,7 +8,7 @@ import os
 DATABASE_PATH = 'database.json'
 AGE_CODES = {
     '1': {'min': 9, 'max': 18, 'isMouth': True},
-    '2': {'min': 20, 'max': 3, 'isMouth': False},
+    '2': {'min': 2, 'max': 3, 'isMouth': False},
     '4': {'min': 4, 'max': 5, 'isMouth': False},
     '6': {'min': 6, 'max': 7, 'isMouth': False},
     '8': {'min': 8, 'max': 9, 'isMouth': False},
